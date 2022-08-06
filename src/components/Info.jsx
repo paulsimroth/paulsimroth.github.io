@@ -154,11 +154,11 @@ export default class Home extends Component{
                     </h1>
                     <p>
                         I am a self-taught blockchain developer. 
-                        After starting my journes in this space in the summer of 2021 by beginning to take courses at Moralis Academy, I am now looking forward to 
+                        After starting my journey in this space in the summer of 2021 by beginning to take courses at Moralis Academy, I am now looking forward to 
                         a role as a developer with the opportunity to work with the latest technologies on interesting projects.
                     </p>
                     <p>
-                        During my time studying aswell as during the projects completed during the courses 
+                        During my time studying as well as during the projects completed during the courses 
                         I had the opportunity to familiarize myself with Javascript and Solidity aswell as React.js, HTML and CSS.
                     </p>
                     <p>
