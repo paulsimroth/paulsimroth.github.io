@@ -137,7 +137,7 @@ export default class Home extends Component{
                         <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
 
                         <div>                         
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/paulsimroth-jsdex.github.io">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/jsdex_frontend/">
@@ -155,10 +155,10 @@ export default class Home extends Component{
 
                         <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                         <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-course-coinexchange">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-coinexchange">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
-                        <a target="_blank" rel="noreferrer" href="">
+                        <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/react-coinexchange/">
                             <FontAwesomeIcon icon={faLaptopCode} color= "#4d4d4e" />
                         </a>
                         </div>
