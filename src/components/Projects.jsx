@@ -50,7 +50,9 @@ const ProjectContainer = styled.div`
     width: 260px;
     height: 260px;
     margin: 30px;
-    font-size: 13px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px #181818;
+    font-size: 12px;
     letter-spacing: 2px;
     box-sizing: border-box;
     float: left;
@@ -65,14 +67,12 @@ const ProjectContainer = styled.div`
     }
     
     a {
-        font-size: 25px;
-        margin-left: 20px;
+        font-size: 20px;
+        margin-left: 15px;
     }
 
     div {
-        display: block;
-        font-size: 18px;
-        margin: 5px;
+        font-size: 20px;
         margin-left: 25px;
         spacing: 20px;
         float: left;
