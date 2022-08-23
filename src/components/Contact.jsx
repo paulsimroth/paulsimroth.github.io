@@ -153,6 +153,7 @@ const Contactform = styled.div`
         font-size: 16px;
         color: #fff;
         min-height: 150px;
+        padding: 10px 20px;
         box-sizing: border-box;
     }
 `;
