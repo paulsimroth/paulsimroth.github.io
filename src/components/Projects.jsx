@@ -5,12 +5,11 @@ import { faGithub, faCss3, faEthereum, faHtml5, faJsSquare, faReact} from '@fort
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import Menu from "./Menu";
 
-
 /* Styling */
 const Container = styled.div`
     width: 100%;
     will-change: contents;
-    height: 100%;
+    height: 90%;
     min-height: 566px;
     position: absolute;
     margin: 0 auto;
@@ -21,6 +20,7 @@ const Container = styled.div`
 
 const Textarea = styled.div`
     position: absolute;
+    height: 95%;
     left: 15%;
     top: 5%;
     margin-top: 50px;
@@ -51,7 +51,8 @@ const ProjectContainer = styled.div`
     height: 260px;
     margin: 30px;
     padding: 5px;
-    box-shadow: 3px 3px 3px 3px #181818;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
     font-size: 12px;
     letter-spacing: 2px;
     box-sizing: border-box;
