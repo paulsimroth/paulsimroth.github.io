@@ -24,3 +24,20 @@ code {
   margin-top: 200px;
   margin-left: 200px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  position: fixed;
+}
+
+::-webkit-scrollbar-track {
+  background: #444;
+  height: 100%;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #043b58;
+  border-radius: 100vw;
+}
+
