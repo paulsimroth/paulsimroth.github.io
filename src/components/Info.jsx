@@ -122,14 +122,14 @@ const SkillIcons = styled.div`
     display: block;
     width: 50%;
     right: 12%;
-    top: 10%;
+    top: 9%;
     text-align: center;
     overflow: hidden;
     position: absolute;
 
     div {
         animation: backInDown 1s;
-        padding: 5%;
+        padding: 3%;
         width: 23px;
         font-size: 23px;
         margin: 8px auto;
@@ -141,7 +141,7 @@ const SkillIcons = styled.div`
 
     p {
         font-size: 16px;
-        color: #fff;
+        color: #8d8d8d;
         letter-spacing: 3px;
         font-weight: 300;
     }
@@ -168,7 +168,7 @@ export default class Home extends Component{
                     <p>
                         During my time studying as well as during the projects completed during the courses 
                         I had the opportunity to familiarize myself with Javascript and Solidity aswell as React.js, HTML and CSS.
-                        Check out my skills, seen her on the right and also my projects which you can find <Link to="/projects">here</Link>.
+                        Check out my skills, seen her on the right and also my projects which you can find on the Projects page.
                     </p>
                     <p>
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.

@@ -205,7 +205,7 @@ export default function Contact (){
             <Textarea>
                 <h1>Contact Me!</h1>
                 <p>
-                    I am interested in opportunities and projects in the blockchain space.
+                    I am open to opportunities and projects in the blockchain space.
                     Also, if you have any other questions do not hesitate to contact me using the form below.
                 </p>
                 <Contactform>
