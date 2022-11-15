@@ -2,6 +2,7 @@ import { faCss3, faEthereum, faHtml5, faJsSquare, faReact } from '@fortawesome/f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 import Menu from "./Menu";
 
@@ -137,6 +138,13 @@ const SkillIcons = styled.div`
             animation: bounce 0.5s;
         }
     }
+
+    p {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
 `;
 
 /* Component*/
@@ -153,13 +161,14 @@ export default class Home extends Component{
                         About me
                     </h1>
                     <p>
-                        I am a self-taught blockchain developer. 
+                        I am a self-taught blockchain developer, passionate about learning and this technology as a whole. 
                         After starting my journey in this space in the summer of 2021 by beginning to take courses at Moralis Academy, I am now looking forward to 
                         a role as a developer with the opportunity to work with the latest technologies on interesting projects.
                     </p>
                     <p>
                         During my time studying as well as during the projects completed during the courses 
                         I had the opportunity to familiarize myself with Javascript and Solidity aswell as React.js, HTML and CSS.
+                        Check out my skills, seen her on the right and also my projects which you can find <Link to="/projects">here</Link>.
                     </p>
                     <p>
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
@@ -169,15 +178,30 @@ export default class Home extends Component{
                 
                 <SkillIcons>
                     
-                    <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                    <div>
+                        <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                        <p>JavaScript, ES6</p>
+                    </div>
 
-                    <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>    
+                    <div>
+                        <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                        <p>HTML</p>
+                    </div>    
            
-                    <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
+                    <div>
+                        <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                        <p>CSS</p>
+                    </div>
                    
-                    <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                    <div>
+                        <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                        <p>Solidity: Truffle, Openzeppelin, ERC20, ERC721</p>
+                    </div>
                  
-                    <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>                  
+                    <div>
+                        <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                        <p>React.js</p>
+                    </div>                  
                     
                 </SkillIcons>
                 <Bottomtag>
