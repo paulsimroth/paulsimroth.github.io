@@ -92,6 +92,10 @@ const ProjectContainer = styled.div`
         font-family: "Coolvetica";
         font-weight: 400;
     }
+
+    p {
+        text-align: justify;
+    }
     
     a {
         font-size: 20px;
@@ -123,10 +127,9 @@ export default class Home extends Component{
                     <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
-                            In this repository you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse" 
-                            As part of the course the communication was done with the now deprecated version of Moralis Servers V1. 
-                            I instead chose ethersjs to handle the communication between the front end and the smart contract. 
-                            I also slightly changed the smart contract.
+                            Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse" 
+                            As part of the course the the interaction between ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
+                            I instead chose Ethers.js to handle it instead and also slightly changed the smart contract.
                         </p>
 
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -143,7 +146,7 @@ export default class Home extends Component{
                         <h3>React Coin Exchange</h3>
                         <p>
                             I did this react App as part of the course react Web Development 101 at Moralis Academy. 
-                            It is a react web app for a coin exchange. 
+                            It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 
                             We used the coinpaprika API to fetch data about top ranked coins.
                         </p>
 
@@ -159,8 +162,8 @@ export default class Home extends Component{
                         <h3>JS DEX Frontend</h3>
                         <p>
                             This DEX Frontend was built as part of the course "Javascript for Blockchain Developers"at Moralis Academy. 
-                            It was built using the Coinpaprika API for getting data on the top ranked coins.
-                            Furthermore we made use of the servers provided by Moralis aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps.
+                            It was built using the Coinpaprika API for fetching data on the top ranked coins.
+                            Furthermore we made use of Moralis Server V1 aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps.
                         </p>
 
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
@@ -197,7 +200,7 @@ export default class Home extends Component{
                         <h3>ETH Wallet</h3>
                         <p>
                             This Project was for the Ethereum Smart Contract Programming 101 Course at Moralis Academy. 
-                            It is a multi signature wallet where you need the approval of 2/3 Admins to complete a transaction.
+                            It is a multi signature wallet where you need the approval of the majority of adresses which have been assigned the role of Admin to complete a transaction.
                         </p>
 
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>

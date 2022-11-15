@@ -66,7 +66,7 @@ const Textarea = styled.div`
     }
 
     p {
-        font-size: 12px;
+        font-size: 16px;
         color: #fff;
         font-weight: 300;
         min-width: fit-content;

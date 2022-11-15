@@ -59,7 +59,7 @@ const Textarea = styled.div`
         color: #8d8d8d;
         margin-top: 30px;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 13px;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
     }
