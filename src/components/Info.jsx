@@ -133,10 +133,6 @@ const SkillIcons = styled.div`
         width: 23px;
         font-size: 23px;
         margin: 8px auto;
-        
-        &:hover {
-            animation: bounce 0.5s;
-        }
     }
 
     p {
@@ -195,7 +191,7 @@ export default class Home extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity: Truffle, Openzeppelin, ERC20, ERC721</p>
+                        <p>Solidity: ERC20, ERC721, Truffle, Openzeppelin</p>
                     </div>
                  
                     <div>
