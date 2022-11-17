@@ -168,6 +168,11 @@ const SendButton = styled.input`
     border: 1px solid #ffd700;
     float: right;
     border-radius: 4px;
+
+    &:hover {
+        background: #ffd700;
+        color: #022c43;
+    }
 `;
 
 
