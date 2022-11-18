@@ -100,6 +100,10 @@ const ProjectContainer = styled.div`
     a {
         font-size: 20px;
         margin-left: 15px;
+
+        &:hover svg {
+            color: #ffd700;
+        }
     }
 
     div {
