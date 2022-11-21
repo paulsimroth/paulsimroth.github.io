@@ -130,6 +130,30 @@ const Ulist = styled.ul`
     }
 `;
 
+const NavLegal = styled.nav`
+display: block;
+text-align: center;
+position: absolute;
+height: 20px;
+top: 90vh;
+width: 7%;
+
+a {
+    font-size: 10px;
+    color: #4d4d4e;
+    display: block;
+    line-height: 51px;
+    height: 21px;
+    position: relative;
+    text-decoration: none;
+    margin: 5px 0 5px 0;
+
+    &:hover {
+        color: #ffd700;
+    }
+}
+`;
+
 
 //Menu Component
 
@@ -174,6 +198,16 @@ export default class Menu extends Component{
                         </a>
                     </li>
                 </Ulist>
+
+                <NavLegal>
+                    <NavLink exact="true" activeclassname="active" to="/imprint">
+                        Imprint
+                    </NavLink>
+
+                    <NavLink exact="true" activeclassname="active" to="/data">
+                        Data Policy
+                    </NavLink>
+                </NavLegal>
             </NavArea>
         )
     }

@@ -132,8 +132,9 @@ export default class Home extends Component{
                     &lt;/body&gt;
                     <br/>
                     <HTMLTag>&lt;/html&gt;</HTMLTag>
-                </Bottomtag> 
+                </Bottomtag>
             </Container>
+           
             
         )
     }

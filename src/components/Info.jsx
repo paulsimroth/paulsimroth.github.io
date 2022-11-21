@@ -2,7 +2,6 @@ import { faCss3, faEthereum, faHtml5, faJsSquare, faReact } from '@fortawesome/f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import styled from "styled-components";
-import {Link} from "react-router-dom";
 
 import Menu from "./Menu";
 
