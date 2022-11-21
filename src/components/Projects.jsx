@@ -20,49 +20,39 @@ const Container = styled.div`
 
 const Textarea = styled.div`
     position: absolute;
-    
     left: 11%;
-    top: 12vh;
-    margin-top: 50px;
+    top: -1vh;
+    margin-top: 30px;
     width: 89vw;
-    height: 90vh;
-    
-    
+    height: 99vh;
     overflow: auto;
+    overflow-x: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1 1 100%;
     
-    
     h1 {
-        background-color: #044362;
-        position: fixed;
+        width: 80vw;
+        height: 9vh;
         color: #ffd700;
         font-size: 50px;
-        margin: 10px;
-        top: 3%;
+        margin: 20px 10px 20px 10px;
+
         padding: 10px;
         font-family: "Coolvetica";
         font-weight: 400;
         animation: fadeIn 1s 0.5s backwards;
         z-index: 5;
+        flex: 1 1 100%;
     }
     
 `;
 
-const ProjectsDone = styled.div`
-    
-
-   
+const ProjectsDone = styled.div`  
     width: 88vw;
-
-    
-    
-
-    border: 2px solid #ff0000;
     
     h2 {
         width: 85vw;
@@ -79,18 +69,11 @@ const ProjectsDone = styled.div`
 `;
 
 const ProjectsCurr = styled.div`
-    
-    
     width: 88vw;
-
-    
-    
-    border: 2px solid #ff0000;
 
     h2 {
         width: 85vw;
         height: 25px;
-
         color: #fff;
         font-size: 25px;
         margin: 10px;
