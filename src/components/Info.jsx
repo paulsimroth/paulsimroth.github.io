@@ -133,6 +133,11 @@ const SkillIcons = styled.div`
         width: 23px;
         font-size: 23px;
         margin: 8px auto;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: all 0.5s ease;
+        }
     }
 
     p {
