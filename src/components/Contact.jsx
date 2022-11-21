@@ -213,6 +213,7 @@ export default function Contact (){
                     I am open to opportunities and projects in the blockchain space.
                     Also, if you have any other questions do not hesitate to contact me using the form below.
                 </p>
+                <p style={{color: "#ffd700"}}>By clicking the send button you confirm that you have seen and accepted the Privacy Policy!</p>
                 <Contactform>
                     <form ref = {refForm} onSubmit = {sendEmail}>
                         <ul>

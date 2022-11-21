@@ -134,7 +134,7 @@ const NavLegal = styled.nav`
     display: block;
     text-align: center;
     position: absolute;
-    height: 20px;
+    height: 21px;
     top: 90vh;
     width: 7%;
 
@@ -142,7 +142,6 @@ const NavLegal = styled.nav`
         font-size: 10px;
         color: #4d4d4e;
         display: block;
-        line-height: 51px;
         height: 21px;
         position: relative;
         text-decoration: none;
@@ -205,7 +204,7 @@ export default class Menu extends Component{
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" to="/data">
-                        Data Policy
+                        Privacy Policy
                     </NavLink>
                 </NavLegal>
             </NavArea>
