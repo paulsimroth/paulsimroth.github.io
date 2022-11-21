@@ -40,7 +40,6 @@ const Textarea = styled.div`
         color: #ffd700;
         font-size: 50px;
         margin: 20px 10px 20px 10px;
-
         padding: 10px;
         font-family: "Coolvetica";
         font-weight: 400;
@@ -57,7 +56,6 @@ const ProjectsDone = styled.div`
     h2 {
         width: 85vw;
         height: 25px;
-        
         color: #fff;
         font-size: 25px;
         margin: 10px;
