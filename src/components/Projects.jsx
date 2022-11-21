@@ -189,7 +189,7 @@ export default class Home extends Component{
                     </ProjectContainer>
 
                     <ProjectContainer>
-                        <h3>React Coin Exchange</h3>
+                        <h3>React.Js Coin Exchange</h3>
                         <p>
                             I did this react App as part of the course react Web Development 101 at Moralis Academy. 
                             It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 
@@ -243,7 +243,7 @@ export default class Home extends Component{
                     </ProjectContainer>
 
                     <ProjectContainer>
-                        <h3>ETH Wallet</h3>
+                        <h3>Ethereum Wallet</h3>
                         <p>
                             This Project was for the Ethereum Smart Contract Programming 101 Course at Moralis Academy. 
                             It is a multi signature wallet where you need the approval of the majority of adresses which have been assigned the role of Admin to complete a transaction.
@@ -262,7 +262,7 @@ export default class Home extends Component{
                 <ProjectsCurr>
                     <h2>These are my projects currently under development.</h2>   
                     <ProjectContainer>
-                        <h3>ETH Game</h3>
+                        <h3>Ethereum Game</h3>
                         <p>
                         In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
                         For the game Phaser 3.15.1 was used. The coins eraned in-game are sent to your wallet as an ERC-20 Token.
