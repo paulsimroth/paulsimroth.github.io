@@ -13,7 +13,7 @@ const Container = styled.div`
     margin: 0 auto;
     z-index: 1;
     transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
+    animation: fadeIn 0.5s forwards;
 `;
 
 const Textarea = styled.div`
@@ -39,7 +39,7 @@ const Textarea = styled.div`
             margin-top: -50px;
             left: 15px;
             opacity: 0.6;
-            animation: fadeIn 1s 1.7s backwards;
+            animation: fadeIn 1s 1s backwards;
             
         }
 
@@ -51,7 +51,7 @@ const Textarea = styled.div`
             margin-top: 18px;
             margin-left: 20px;
             opacity: 0.6;
-            animation: fadeIn 1s 1.7s backwards;
+            animation: fadeIn 1s 1s backwards;
             
         }
     }
@@ -62,7 +62,7 @@ const Textarea = styled.div`
         font-weight: 400;
         font-size: 11px;
         letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 1.1s backwards;
     }
 
     p {

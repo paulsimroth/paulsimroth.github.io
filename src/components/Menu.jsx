@@ -26,7 +26,6 @@ const NavArea = styled.div`
     top: 0;
     z-index: 3;
     min-height: 500px;
-    
 `;
 
 const Nav = styled.nav`

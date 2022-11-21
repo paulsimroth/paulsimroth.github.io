@@ -20,37 +20,30 @@ const Container = styled.div`
 
 const Textarea = styled.div`
     position: absolute;
-    height: 95%;
+    
     left: 11%;
-    top: 5%;
+    top: 12vh;
     margin-top: 50px;
-    width: 89%;
-    float: left;
-    clear: none;
+    width: 89vw;
+    height: 90vh;
+    
+    
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 1 100%;
+    
     
     h1 {
-        background-color: #022c43;
+        background-color: #044362;
         position: fixed;
         color: #ffd700;
         font-size: 50px;
         margin: 10px;
-        top: 4%;
-        padding: 10px;
-        font-family: "Coolvetica";
-        font-weight: 400;
-        animation: fadeIn 1s 0.5s backwards;
-        z-index: 5;
-    }
-
-    h2 {
-        background-color: #022c43;
-        position: fixed;
-        color: #fff;
-        font-size: 25px;
-        margin: 10px;
-        top: 18%;
-        left: 11%;
+        top: 3%;
         padding: 10px;
         font-family: "Coolvetica";
         font-weight: 400;
@@ -58,25 +51,61 @@ const Textarea = styled.div`
         z-index: 5;
     }
     
-    p {
-        font-style: 13px;
+`;
+
+const ProjectsDone = styled.div`
+    
+
+   
+    width: 88vw;
+
+    
+    
+
+    border: 2px solid #ff0000;
+    
+    h2 {
+        width: 85vw;
+        height: 25px;
+        
         color: #fff;
-        font-weight: 300;
-        min-width: fit-content;
-        animation: pulse 1s;
+        font-size: 25px;
+        margin: 10px;
+        padding: 10px;
+        font-family: "Coolvetica";
+        font-weight: 400;
+        animation: fadeIn 1s 0.5s backwards;
     }
 `;
-const Projects = styled.div`
-    overflow: auto;
-    position: absolute;
-    top: 12%;
+
+const ProjectsCurr = styled.div`
+    
+    
+    width: 88vw;
+
+    
+    
+    border: 2px solid #ff0000;
+
+    h2 {
+        width: 85vw;
+        height: 25px;
+
+        color: #fff;
+        font-size: 25px;
+        margin: 10px;
+        padding: 10px;
+        font-family: "Coolvetica";
+        font-weight: 400;
+        animation: fadeIn 1s 0.5s backwards;
+    }
 `;
 
 const ProjectContainer = styled.div`
-    width: 260px;
-    height: 260px;
-    margin: 30px;
-    padding: 5px;
+    width: 265px;
+    height: 265px;
+    margin: 20px;
+    padding: 6px;
     border: 2px solid #ffd700;
     border-radius: 10px;
     font-size: 12px;
@@ -84,6 +113,12 @@ const ProjectContainer = styled.div`
     box-sizing: border-box;
     float: left;
     clear: none;
+
+    &:hover {
+        transform: scale(1.02);
+        border: 3px solid #ffd700;
+        transition: all 0.5s ease;
+    }
 
     h3 {
         color: #fff;
@@ -95,6 +130,11 @@ const ProjectContainer = styled.div`
 
     p {
         text-align: justify;
+        font-style: 13px;
+        color: #fff;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
     }
     
     a {
@@ -103,6 +143,8 @@ const ProjectContainer = styled.div`
 
         &:hover svg {
             color: #ffd700;
+            transform: scale(1.3);
+            transition: all 0.5s ease;
         }
     }
 
@@ -121,14 +163,14 @@ const ProjectContainer = styled.div`
 export default class Home extends Component{
     render(){
         return(
-            
             <Container>
                 <Menu/>
                 <Textarea>
                     <h1>On this page you can see my projects I have done so far.</h1>
-                    <h2>These are my finished study projects, listed from newest to oldest</h2>
-                    <Projects>
-                    <ProjectContainer>
+                    
+                <ProjectsDone>
+                    <h2>These are my finished study projects, listed newest to oldest.</h2>    
+                    <ProjectContainer style={{order: 1}}>
                         <h3>Metaverse</h3>
                         <p>
                             Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse" 
@@ -215,8 +257,48 @@ export default class Home extends Component{
                         </a>
                         </div>
                     </ProjectContainer>
+                </ProjectsDone>
+                
+                <ProjectsCurr>
+                    <h2>These are my projects currently under development.</h2>   
+                    <ProjectContainer>
+                        <h3>ETH Game</h3>
+                        <p>
+                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
+                        For the game Phaser 3.15.1 was used. The coins eraned in-game are sent to your wallet as an ERC-20 Token.
+                        </p>
 
-                    </Projects>
+                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+
+                        <div>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                        </a>
+                        </div>
+                    </ProjectContainer>
+
+                    <ProjectContainer>
+                        <h3>NFT Marketplace</h3>
+                        <p>
+                        This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
+                        My version features bears instead of cats. The msg.sender can mint 10 Generation 0 bears. after that you can breed bears, where the DNA of the parents determines the features of the new bear.                     
+                        </p>
+
+                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
+
+                        <div>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
+                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                        </a>
+                        </div>
+                    </ProjectContainer>
+
+                    </ProjectsCurr>
                 </Textarea>
             </Container>
         )

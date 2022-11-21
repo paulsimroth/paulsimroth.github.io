@@ -92,7 +92,7 @@ const HTMLTag = styled.span`
 
 const ContactBtn = styled.button`
     color: #ffd700;
-    background: #022c43; 
+    background: #044362; 
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;

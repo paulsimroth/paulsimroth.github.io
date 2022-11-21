@@ -176,7 +176,7 @@ export default class Home extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p>JavaScript, ES6</p>
+                        <p>JavaScript, ES6, Ethers.Js</p>
                     </div>
 
                     <div>
