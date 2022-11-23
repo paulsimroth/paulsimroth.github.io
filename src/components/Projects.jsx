@@ -247,7 +247,7 @@ export default class Home extends Component{
                         <h3>Ethereum Game</h3>
                         <p>
                         In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
-                        For the game Phaser 3.15.1 was used. The coins eraned in-game are sent to your wallet as an ERC-20 Token.
+                        For the game Phaser 3.15.1 was used. The coins and boosts earned in-game are ERC1155 Tokens.
                         </p>
 
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
