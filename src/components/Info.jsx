@@ -191,7 +191,7 @@ export default class Home extends Component{
            
                     <div>
                         <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                        <p>CSS</p>
+                        <p>CSS, Bootstrap</p>
                     </div>
                    
                     <div>
