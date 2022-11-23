@@ -6,13 +6,14 @@ import Menu from "./Menu";
 
 /* Styling */
 const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     will-change: contents;
     height: 90%;
     min-height: 566px;
     position: absolute;
     margin: 0 auto;
     z-index: 1;
+    top: -1vh;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
 `;

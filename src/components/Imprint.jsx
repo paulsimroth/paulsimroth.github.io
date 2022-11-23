@@ -8,6 +8,7 @@ const Container = styled.div`
     width: 100%;
     will-change: contents;
     height: 90%;
+    top: -1vh;
     position: absolute;
     margin: 0 auto;
     z-index: 1;
