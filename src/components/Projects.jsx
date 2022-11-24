@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCss3, faEthereum, faHtml5, faJsSquare, faReact} from '@fortawesome/free-brands-svg-icons';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import Menu from "./Menu";
 
 /* Styling */
@@ -148,11 +148,28 @@ export default class Home extends Component{
             <Container>
                 <Menu/>
                 <Textarea>
-                    <h1>On this page you can see my projects I have done so far.</h1>
+                    <h1>Welcome to my projects page.</h1>
                     
                 <ProjectsDone>
-                    <h2>These are my finished study projects, listed newest to oldest.</h2>    
-                    <ProjectContainer style={{order: 1}}>
+                    <h2>These are my finished study projects, listed newest to oldest.</h2>
+                    <ProjectContainer>
+                        <h3>Ethereum Game</h3>
+                        <p>
+                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
+                        For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
+                        </p>
+                        <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
+                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+
+                        <div>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                        </a>
+                        </div>
+                    </ProjectContainer>   
+                    <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
                             Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse" 
@@ -243,23 +260,6 @@ export default class Home extends Component{
                 
                 <ProjectsCurr>
                     <h2>These are my projects currently under development.</h2>   
-                    <ProjectContainer>
-                        <h3>Ethereum Game</h3>
-                        <p>
-                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
-                        For the game Phaser 3.15.1 was used. The coins and boosts earned in-game are ERC1155 Tokens.
-                        </p>
-
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-                    </ProjectContainer>
 
                     <ProjectContainer>
                         <h3>NFT Marketplace</h3>

@@ -1,5 +1,6 @@
-import { faCss3, faEthereum, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3, faEthereum, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import styled from "styled-components";
 
@@ -119,18 +120,21 @@ const HTMLTag = styled.span`
 `;
 
 const SkillIcons = styled.div`
-    display: block;
-    width: 50%;
-    right: 12%;
-    top: 9%;
-    text-align: center;
-    overflow: hidden;
+    display: flex;
+    width: 30vw;
+    right: 10vw;
+    top: 8vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: visible;
     position: absolute;
 
     div {
         animation: backInDown 1s;
-        padding: 3%;
-        width: 23px;
+        padding: 1%;
+        width: 21px;
         font-size: 23px;
         margin: 8px auto;
 
@@ -181,7 +185,7 @@ export default class Home extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p>JavaScript, ES6, Ethers.Js</p>
+                        <p>JavaScript, ES6, Ethers.Js, Axios</p>
                     </div>
 
                     <div>
@@ -196,13 +200,17 @@ export default class Home extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity: ERC20, ERC721, Truffle, Openzeppelin</p>
+                        <p>Solidity: ERC20, ERC721, ERC1155, Truffle, Openzeppelin</p>
                     </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
                         <p>React.js</p>
-                    </div>                  
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                        <p>Game Development: Phaser</p>   
+                    </div>             
                     
                 </SkillIcons>
                 <Bottomtag>
