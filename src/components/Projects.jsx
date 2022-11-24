@@ -259,7 +259,7 @@ export default class Home extends Component{
                 </ProjectsDone>
                 
                 <ProjectsCurr>
-                    <h2>These are my projects currently under development.</h2>   
+                    <h2>These are my study projects currently under development.</h2>   
 
                     <ProjectContainer>
                         <h3>NFT Marketplace</h3>
