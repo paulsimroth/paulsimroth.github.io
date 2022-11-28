@@ -18,6 +18,7 @@ const Container = styled.div`
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
+    font-family: 'Segoe UI';
 `;
 
 const Textarea = styled.div`
@@ -123,20 +124,21 @@ const SkillIcons = styled.div`
     display: flex;
     width: 30vw;
     right: 10vw;
-    top: 8vh;
+    top: 7vh;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     overflow: visible;
     position: absolute;
+    opacity: 0.8;
 
     div {
         animation: backInDown 1s;
         padding: 1%;
         width: 21px;
-        font-size: 23px;
-        margin: 8px auto;
+        font-size: 22px;
+        margin: 6px auto;
 
         &:hover {
             transform: scale(1.2);

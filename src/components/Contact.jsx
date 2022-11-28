@@ -15,6 +15,7 @@ const Container = styled.div`
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 0.5s forwards;
+    font-family: 'Segoe UI';
 `;
 
 const Textarea = styled.div`

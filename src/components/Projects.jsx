@@ -17,6 +17,7 @@ const Container = styled.div`
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
+    font-family: 'Segoe UI';
 `;
 
 const Textarea = styled.div`
@@ -84,8 +85,8 @@ const ProjectsCurr = styled.div`
 `;
 
 const ProjectContainer = styled.div`
-    width: 265px;
-    height: 265px;
+    width: 270px;
+    height: 270px;
     margin: 20px;
     padding: 6px;
     border: 2px solid #ffd700;
@@ -112,7 +113,7 @@ const ProjectContainer = styled.div`
 
     p {
         text-align: justify;
-        font-style: 13px;
+        font-style: 11px;
         color: #fff;
         font-weight: 300;
         min-width: fit-content;
