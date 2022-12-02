@@ -159,17 +159,19 @@ export default class Home extends Component{
                         In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
                         For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
                         </p>
+
                         <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-
                         <div>
                         <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
-                    </ProjectContainer>   
+
+                    </ProjectContainer>
+                      
                     <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
@@ -177,7 +179,7 @@ export default class Home extends Component{
                             As part of the course the the interaction between ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
                             I instead chose Ethers.js to handle it instead and also slightly changed the smart contract.
                         </p>
-
+                        
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
@@ -186,6 +188,7 @@ export default class Home extends Component{
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -202,6 +205,7 @@ export default class Home extends Component{
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -215,12 +219,12 @@ export default class Home extends Component{
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                         <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
-
                         <div>                         
                         <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -234,12 +238,12 @@ export default class Home extends Component{
 
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-
                         <div>
                         <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -250,12 +254,12 @@ export default class Home extends Component{
                         </p>
 
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-
                         <div>
                         <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
                 </ProjectsDone>
                 
@@ -273,12 +277,12 @@ export default class Home extends Component{
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                         <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
-
                         <div>
                         <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
                             <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                         </a>
                         </div>
+
                     </ProjectContainer>
 
                     </ProjectsCurr>

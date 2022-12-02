@@ -76,6 +76,7 @@ const Textarea = styled.div`
     }
 
     p {
+        text-align: justify;
         font-size: 16px;
         color: #fff;
         letter-spacing: 2px;
