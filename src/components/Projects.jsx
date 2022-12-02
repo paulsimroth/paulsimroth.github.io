@@ -141,6 +141,17 @@ const ProjectContainer = styled.div`
     }
 `;
 
+const SkillContainer = styled.div`
+    postion: relative;
+    left: -30px;
+    width: 250px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #ffd700;
+
+`;
+
 /* Component*/
 
 export default class Home extends Component{
@@ -159,19 +170,19 @@ export default class Home extends Component{
                         In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
                         For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
                         </p>
-
-                        <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
-                      
+
                     <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
@@ -179,16 +190,16 @@ export default class Home extends Component{
                             As part of the course the the interaction between ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
                             I instead chose Ethers.js to handle it instead and also slightly changed the smart contract.
                         </p>
-                        
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/metaverse_project">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>   
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/metaverse_project">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -198,14 +209,14 @@ export default class Home extends Component{
                             It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 
                             We used the coinpaprika API to fetch data about top ranked coins.
                         </p>
-
-                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-coinexchange">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-coinexchange">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -215,16 +226,16 @@ export default class Home extends Component{
                             It was built using the Coinpaprika API for fetching data on the top ranked coins.
                             Furthermore we made use of Moralis Server V1 aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps.
                         </p>
-
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
-                        <div>                         
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
+                            <div>                         
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -235,15 +246,15 @@ export default class Home extends Component{
                             The token contract is there for testing.
                             This Solidity project was done during the Ethereum Smart Contract Programming 201 Course at Moralis Academy.
                         </p>
-
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
 
                     <ProjectContainer>
@@ -252,14 +263,14 @@ export default class Home extends Component{
                             This Project was for the Ethereum Smart Contract Programming 101 Course at Moralis Academy. 
                             It is a multi signature wallet where you need the approval of the majority of adresses which have been assigned the role of Admin to complete a transaction.
                         </p>
-
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
                 </ProjectsDone>
                 
@@ -272,17 +283,17 @@ export default class Home extends Component{
                         This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
                         My version features bears instead of cats. The msg.sender can mint 10 Generation 0 bears. after that you can breed bears, where the DNA of the parents determines the features of the new bear.                     
                         </p>
-
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
-                        <div>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
-                        </a>
-                        </div>
-
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
+                                <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                        </SkillContainer>
                     </ProjectContainer>
 
                     </ProjectsCurr>
