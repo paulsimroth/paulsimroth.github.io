@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCss3, faEthereum, faHtml5, faJsSquare, faReact} from '@fortawesome/free-brands-svg-icons';
-import { faGamepad } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 import Menu from "./Menu";
 
 /* Styling */
@@ -224,6 +224,11 @@ export default class Home extends Component{
                             <div>                         
                             <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
                                 <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            </a>
+                            </div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/jsdex_frontend/">
+                                <FontAwesomeIcon icon={faLaptopCode} color= "#4d4d4e" />
                             </a>
                             </div>
                         </SkillContainer>
