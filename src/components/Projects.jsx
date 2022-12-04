@@ -98,7 +98,7 @@ const ProjectContainer = styled.div`
     clear: none;
 
     &:hover {
-        transform: scale(1.02);
+        transform: scale(1.05);
         border: 3px solid #ffd700;
         transition: all 0.5s ease;
     }
@@ -126,30 +126,21 @@ const ProjectContainer = styled.div`
 
         &:hover svg {
             color: #ffd700;
-            transform: scale(1.3);
+            transform: scale(1.4);
             transition: all 0.5s ease;
         }
-    }
-
-    div {
-        font-size: 20px;
-        margin-left: 25px;
-        spacing: 20px;
-        float: left;
-        clear: none;
-        text-align: center;
     }
 `;
 
 const SkillContainer = styled.div`
-    postion: relative;
-    left: -30px;
     width: 250px;  
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid #ffd700;
-
+    font-size: 20px;
+    float: left;
+    clear: none;
+    text-align: center;
 `;
 
 /* Component*/
@@ -186,9 +177,9 @@ export default class Home extends Component{
                     <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
-                            Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse" 
-                            As part of the course the the interaction between ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
-                            I instead chose Ethers.js to handle it instead and also slightly changed the smart contract.
+                            Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse".
+                            As part of the course the the interaction between the ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
+                            I instead chose Ethers.js to handle the interaction instead and also slightly changed the smart contract.
                         </p>
                         <SkillContainer>   
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
