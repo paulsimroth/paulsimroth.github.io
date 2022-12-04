@@ -1,4 +1,7 @@
-Welcome to my repository for my portfolio page
+Welcome to my repository for my portfolio page.
+On this page you can find my projects, some info about me and my contact information.
+
+Feel free to reach out to me!
 
 Visit my page https://paulsimroth.github.io/
 
