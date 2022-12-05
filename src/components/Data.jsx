@@ -90,12 +90,12 @@ export default class Home extends Component{
                         <br/>
                         <h3>EmailJs</h3>
                         This website uses EmailJs to send data from the contact form to the site owner.
-                        For more information on the service, go to:  <a href="https://www.emailjs.com/legal/privacy-policy/" target="_blank">https://www.emailjs.com/legal/privacy-policy/</a>
+                        For more information on the service, go to:  <a href="https://www.emailjs.com/legal/privacy-policy/" target="_blank" rel="noreferrer">https://www.emailjs.com/legal/privacy-policy/</a>
                         <br/>
                         <h3>Protonmail</h3>
                         Messages sent via the contact form will be sent to the site owner´s Proton Mail account. 
                         The da
-                        For more information on the service, go to:  <a href="https://proton.me/legal/privacy" target="_blank">https://proton.me/legal/privacy</a>
+                        For more information on the service, go to:  <a href="https://proton.me/legal/privacy" target="_blank" rel="noreferrer">https://proton.me/legal/privacy</a>
                     </p>
                     <h2>Your rights</h2>
                     <p>
