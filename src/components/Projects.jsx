@@ -119,17 +119,6 @@ const ProjectContainer = styled.div`
         min-width: fit-content;
         animation: pulse 1s;
     }
-    
-    a {
-        font-size: 20px;
-        margin-left: 15px;
-
-        &:hover svg {
-            color: #ffd700;
-            transform: scale(1.4);
-            transition: all 0.5s ease;
-        }
-    }
 `;
 
 const SkillContainer = styled.div`
@@ -141,6 +130,16 @@ const SkillContainer = styled.div`
     float: left;
     clear: none;
     text-align: center;
+
+    a {
+        font-size: 20px;
+
+        &:hover svg {
+            color: #ffd700;
+            transform: scale(1.4);
+            transition: all 0.5s ease;
+        }
+    }
 `;
 
 /* Component*/
