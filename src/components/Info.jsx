@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faEthereum, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import styled from "styled-components";
@@ -125,7 +125,7 @@ const SkillIcons = styled.div`
     display: flex;
     width: 30vw;
     right: 10vw;
-    top: 7vh;
+    top: 5vh;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -138,7 +138,7 @@ const SkillIcons = styled.div`
         animation: backInDown 1s;
         padding: 1%;
         width: 21px;
-        font-size: 22px;
+        font-size: 18px;
         margin: 6px auto;
 
         &:hover {
@@ -148,9 +148,9 @@ const SkillIcons = styled.div`
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
         color: #8d8d8d;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         font-weight: 300;
     }
 `;
@@ -213,7 +213,12 @@ export default class Home extends Component{
                     <div>
                         <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
                         <p>Game Development: Phaser</p>   
-                    </div>             
+                    </div>
+
+                    <div>
+                        <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                        <p>Git</p>   
+                    </div>              
                     
                 </SkillIcons>
                 <Bottomtag>
