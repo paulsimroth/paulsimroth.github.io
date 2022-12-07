@@ -188,7 +188,7 @@ export default class Home extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p>JavaScript, ES6, Ethers.Js, Axios</p>
+                        <p>JavaScript, ES6, Ethers.Js</p>
                     </div>
 
                     <div>
@@ -208,7 +208,7 @@ export default class Home extends Component{
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                        <p>React.js</p>
+                        <p>React.js, Axios</p>
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
