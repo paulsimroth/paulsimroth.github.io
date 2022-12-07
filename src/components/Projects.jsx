@@ -206,6 +206,11 @@ export default class Home extends Component{
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
                             </a>
                             </div>
+                            <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/react-coinexchange/">
+                                <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                            </a>
+                            </div>
                         </SkillContainer>
                     </ProjectContainer>
 
