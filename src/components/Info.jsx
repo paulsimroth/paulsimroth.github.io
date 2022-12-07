@@ -203,7 +203,7 @@ export default class Home extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity: ERC20, ERC721, ERC1155, Truffle, Openzeppelin</p>
+                        <p>Solidity (EVM, ERC20, ERC721, ERC1155), Truffle, Openzeppelin</p>
                     </div>
                  
                     <div>
