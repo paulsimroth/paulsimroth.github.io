@@ -166,9 +166,9 @@ export default class Home extends Component{
                             <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                             <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -185,9 +185,9 @@ export default class Home extends Component{
                             <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                             <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/metaverse_project">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/metaverse_project">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -202,14 +202,14 @@ export default class Home extends Component{
                         <SkillContainer>
                             <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-coinexchange">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/react-coinexchange">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/react-coinexchange/">
-                                <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/react-coinexchange/">
+                                    <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -226,14 +226,14 @@ export default class Home extends Component{
                             <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                             <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
                             <div>                         
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/jsdex_frontend">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/jsdex_frontend/">
-                                <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/jsdex_frontend/">
+                                    <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -250,9 +250,9 @@ export default class Home extends Component{
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                             <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -266,9 +266,9 @@ export default class Home extends Component{
                         <SkillContainer>
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
@@ -289,9 +289,9 @@ export default class Home extends Component{
                             <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                             <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
                             <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/nft_marketplace">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
