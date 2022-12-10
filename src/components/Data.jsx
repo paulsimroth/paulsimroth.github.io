@@ -60,7 +60,7 @@ const Textarea = styled.div`
 
 /* Component*/
 
-export default class Home extends Component{
+export default class Data extends Component{
     render(){
         return(
             

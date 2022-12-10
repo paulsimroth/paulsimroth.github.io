@@ -144,7 +144,7 @@ const SkillContainer = styled.div`
 
 /* Component*/
 
-export default class Home extends Component{
+export default class Projects extends Component{
     render(){
         return(
             <Container>

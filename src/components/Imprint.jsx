@@ -55,7 +55,7 @@ const Textarea = styled.div`
 
 /* Component*/
 
-export default class Home extends Component{
+export default class Imprint extends Component{
     render(){
         return(
             

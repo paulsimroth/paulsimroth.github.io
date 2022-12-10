@@ -123,12 +123,13 @@ const HTMLTag = styled.span`
 
 const SkillIcons = styled.div`
     display: flex;
-    width: 30vw;
+    width: 45vw;
     right: 10vw;
-    top: 5vh;
+    height: 98vh;
+    top: 2vh;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     overflow: visible;
     position: absolute;
@@ -157,7 +158,7 @@ const SkillIcons = styled.div`
 
 /* Component*/
 
-export default class Home extends Component{
+export default class Info extends Component{
     render(){
         return(
             
