@@ -38,7 +38,7 @@ const Nav = styled.nav`
 
     a {
         font-size: 22px;
-        color: 4d4d4de;
+        color: #4d4d4d;
         display: block;
         line-height: 51px;
         height: 51px;
