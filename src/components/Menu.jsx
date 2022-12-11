@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome , faUser , faEnvelope, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import {Link, NavLink} from "react-router-dom";
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import logo from "../logo_dark.jpg";
+import logo from "../logo_dark.png";
 
 //Navbar
 
@@ -12,7 +12,7 @@ import logo from "../logo_dark.jpg";
 
 const Img = styled.img`
     display: block;
-    width: 7vw;
+    width: 60px;
     height: auto;
     margin: 8px auto;
     pointer-events: none;
@@ -39,7 +39,7 @@ const Nav = styled.nav`
 
     a {
         font-size: 22px;
-        color: #4d4d4d;
+        color: #666666;
         display: block;
         line-height: 51px;
         height: 51px;
@@ -169,19 +169,19 @@ export default class Menu extends Component{
                 
                 <Nav>
                     <NavLink exact="true" activeclassname="active" to="/">
-                        <FontAwesomeIcon icon={faHome} color= "#4d4d4e"/>
+                        <FontAwesomeIcon icon={faHome} color= "#595959"/>
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" to="/about">
-                        <FontAwesomeIcon icon={faUser} color= "#4d4d4e"/>
+                        <FontAwesomeIcon icon={faUser} color= "#595959"/>
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" to="/projects">
-                        <FontAwesomeIcon icon={faLaptopCode} color= "#4d4d4e"/>
+                        <FontAwesomeIcon icon={faLaptopCode} color= "#595959"/>
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" to="/contact">
-                        <FontAwesomeIcon icon={faEnvelope} color= "#4d4d4e"/>
+                        <FontAwesomeIcon icon={faEnvelope} color= "#595959"/>
                     </NavLink>
 
                 </Nav>
@@ -189,12 +189,12 @@ export default class Menu extends Component{
                 <Ulist>
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/paul-simroth/">
-                                <FontAwesomeIcon icon={faLinkedin} color= "#4d4d4e" />
+                                <FontAwesomeIcon icon={faLinkedin} color= "#595959" />
                         </a>
                     </li>
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://github.com/PaulSimroth">
-                            <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
+                            <FontAwesomeIcon icon={faGithub} color= "#595959" />
                         </a>
                     </li>
                 </Ulist>
