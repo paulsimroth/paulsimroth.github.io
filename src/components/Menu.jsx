@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome , faUser , faEnvelope, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import {Link, NavLink} from "react-router-dom";
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import logo from "../logo_dark.jpg";
 
 //Navbar
 
@@ -11,7 +12,7 @@ import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const Img = styled.img`
     display: block;
-    width: 60px;
+    width: 7vw;
     height: auto;
     margin: 8px auto;
     pointer-events: none;
@@ -163,7 +164,7 @@ export default class Menu extends Component{
             <NavArea>
                 
                 <Link to = "/">
-                    <Img src=""  />
+                    <Img src={logo}  alt="My Logo"/>
                 </Link>
                 
                 <Nav>
