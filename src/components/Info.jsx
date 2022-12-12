@@ -124,7 +124,7 @@ const HTMLTag = styled.span`
 const SkillIcons = styled.div`
     display: flex;
     width: 45vw;
-    right: 10vw;
+    right: 3vw;
     height: 98vh;
     top: 2vh;
     flex-direction: column;
@@ -137,7 +137,7 @@ const SkillIcons = styled.div`
 
     div {
         animation: backInDown 1s;
-        padding: 1%;
+        padding: 4px;
         width: 21px;
         font-size: 18px;
         margin: 6px auto;
@@ -204,7 +204,7 @@ export default class Info extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity (EVM, ERC20, ERC721, ERC1155), Truffle, Openzeppelin</p>
+                        <p>Solidity (EVM, ERC20, ERC721, ERC1155), Truffle, Openzeppelin, Hardhat</p>
                     </div>
                  
                     <div>

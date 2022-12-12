@@ -154,24 +154,25 @@ export default class Projects extends Component{
                     
                 <ProjectsDone>
                     <h2>These are my finished study projects, listed newest to oldest.</h2>
+
                     <ProjectContainer>
-                        <h3>Ethereum Game</h3>
+                        <h3>Realestate Platform</h3>
                         <p>
-                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
-                        For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
+                        With this project I tried out Hardhat and wanted to familiarize myself with this development tool.
+                        I followed a tutorial by Dapp University which is linked in the README. It is a smart contract with basic functions needed for a transaction including different roles like buyer, seller, lender and inspector.
                         </p>
                         <SkillContainer>
-                            <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                             <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                             <div>
-                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/realestate_escrow">
                                     <FontAwesomeIcon icon={faGithub} color= "#727274" />
                                 </a>
                             </div>
                         </SkillContainer>
                     </ProjectContainer>
+
+
 
                     <ProjectContainer>
                         <h3>Metaverse</h3>
@@ -275,7 +276,26 @@ export default class Projects extends Component{
                 </ProjectsDone>
                 
                 <ProjectsCurr>
-                    <h2>These are my study projects currently under development.</h2>   
+                    <h2>These are my study projects currently under development or revision.</h2>   
+                    
+                    <ProjectContainer>
+                        <h3>Ethereum Game</h3>
+                        <p>
+                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
+                        For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
+                        </p>
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
+                            </div>
+                        </SkillContainer>
+                    </ProjectContainer>
 
                     <ProjectContainer>
                         <h3>NFT Marketplace</h3>
