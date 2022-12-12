@@ -39,7 +39,7 @@ const Nav = styled.nav`
 
     a {
         font-size: 22px;
-        color: #666666;
+        color: #595959;
         display: block;
         line-height: 51px;
         height: 51px;
@@ -141,7 +141,7 @@ const NavLegal = styled.nav`
 
     a {
         font-size: 10px;
-        color: #4d4d4e;
+        color: #595959;
         display: block;
         height: 21px;
         position: relative;
