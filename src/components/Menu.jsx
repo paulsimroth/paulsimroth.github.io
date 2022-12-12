@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome , faUser , faEnvelope, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
+import { faHome , faUser , faEnvelope, faLaptopCode, faBook} from "@fortawesome/free-solid-svg-icons";
 import {Link, NavLink} from "react-router-dom";
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import logo from "../logo_dark.png";
@@ -89,11 +89,17 @@ const Nav = styled.nav`
 
         &:nth-child(3) {
             &::after {
-                content: 'Projects';
+                content: 'Education';
             }
         }
 
         &:nth-child(4) {
+            &::after {
+                content: 'Projects';
+            }
+        }
+
+        &:nth-child(5) {
             &::after {
                 content: 'Contact';
             }
@@ -174,6 +180,10 @@ export default class Menu extends Component{
 
                     <NavLink exact="true" activeclassname="active" to="/about">
                         <FontAwesomeIcon icon={faUser} color= "#595959"/>
+                    </NavLink>
+
+                    <NavLink exact="true" activeclassname="active" to="/education">
+                        <FontAwesomeIcon icon={faBook} color= "#595959"/>
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" to="/projects">
