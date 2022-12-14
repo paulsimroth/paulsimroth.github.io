@@ -53,8 +53,8 @@ const Textarea = styled.div`
 `;
 
 const SkillContainer = styled.div`
-    width: 700px;
-    height: 150px;
+    width: 750px;
+    height: 160px;
     margin: 20px;
     padding: 6px;
     border: 2px solid #ffd700;
@@ -74,15 +74,26 @@ const SkillContainer = styled.div`
         transition: all 0.5s ease;
     }
 
+`;
 
-
+const SkillText = styled.div`
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-style: 11px;
+    color: #fff;
+    font-weight: 300;
+    animation: pulse 1s;
+    
     p {
-        text-align: justify;
-        font-style: 11px;
+
+        
+        
+    }
+
+    li{
         color: #fff;
-        font-weight: 300;
-        min-width: fit-content;
-        animation: pulse 1s;
+        font-size: 12px;  
     }
 `;
 
@@ -123,7 +134,7 @@ export default class Education extends Component{
                     <SkillContainer>
                         <SkillHeader>
                             <h3>CERTIFICATE 1</h3>
-                            <h4>@ Moralis Academy</h4>
+                            <h4>@Moralis Academy</h4>
                             <h4>I used and improved: 
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
@@ -134,74 +145,326 @@ export default class Education extends Component{
                                 <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                             </h4>
                         </SkillHeader>
-                        <div>
+                        <SkillText>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
-                        </div>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 2</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 3</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 4</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 4</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 5</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 5</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 6</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 6</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 7</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 7</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 8</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 8</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 9</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 9</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 10</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 10</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 11</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 11</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 12</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 12</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 13</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 13</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
-                        <h3>CERTIFICATE 14</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 14</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                                <li>Skill 3</li>
+                            </ul>
+                        </SkillText>
                     </SkillContainer>
 
                 </Textarea>
