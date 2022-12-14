@@ -285,6 +285,36 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
+                    <SkillContainer>
+                        <SkillHeader>
+                            <h3>Ethereum Game Programming</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>Topics: <br/>
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                        <p>In this course I learned and gained knowledge in these topics</p>
+                            <ul>
+                                <li>Phaser Game</li>
+                                <li>Computer Graphics</li>
+                                <li>Business Use Cases</li>
+                                <li>NFTs</li>
+                                <li>Collectibles</li>
+                            </ul>
+                            <ul>
+                                <li>Token Standards</li>
+                                <li>ERC721</li>
+                                <li>ERC1155</li>
+                                <li>ERC20</li>
+                                <li>Integration of Crypto into a Game</li>
+                            </ul>
+                        </SkillText>
+                    </SkillContainer>
+
                     <h2>Frontend Development</h2>
 
                     <SkillContainer>
@@ -317,6 +347,30 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
+                    <SkillContainer>
+                        <SkillHeader>
+                            <h3>React Web Development</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>Topics: <br/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                        <p>In this course I learned and gained knowledge in these topics</p>
+                            <ul>
+                                <li>Creating React Apps</li>
+                                <li>API Communication</li>
+                                <li>Dev Environment for React</li>
+                                <li>Functional Components</li>
+                                <li>Class-based Components</li>
+                            </ul>
+                        </SkillText>
+                    </SkillContainer>
+
                     <h2>Decentralized Finance and FinTech</h2>
 
                     <SkillContainer>
@@ -340,44 +394,6 @@ export default class Education extends Component{
                                 <li>Embedded Finance</li>
                                 <li>Fintech Regulations</li>
                                 <li>Banking API Aggregators</li>
-                            </ul>
-                        </SkillText>
-                    </SkillContainer>
-
-                    <h2>Blockchain and Business</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <SkillContainer>
-                        <SkillHeader>
-                            <h3>React Web Development</h3>
-                            <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
-                            </h4>
-                        </SkillHeader>
-                        <SkillText>
-                        <p>In this course I learned and gained knowledge in these topics</p>
-                            <ul>
-                                <li>Creating React Apps</li>
-                                <li>API Communication</li>
-                                <li>Dev Environment for React</li>
-                                <li>Functional Components</li>
-                                <li>Class-based Components</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
@@ -434,6 +450,8 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
+                    <h2>Blockchain and Business</h2>
+
                     <SkillContainer>
                         <SkillHeader>
                             <h3>Blockchain Business MasterClass</h3>
@@ -457,36 +475,6 @@ export default class Education extends Component{
                                 <li>Hyperledger Composer</li>
                                 <li>Blockchain Tree</li>
                                 <li>Permissioned Blockchains</li>
-                            </ul>
-                        </SkillText>
-                    </SkillContainer>
-
-                    <SkillContainer>
-                        <SkillHeader>
-                            <h3>Ethereum Game Programming</h3>
-                            <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
-                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
-                            </h4>
-                        </SkillHeader>
-                        <SkillText>
-                        <p>In this course I learned and gained knowledge in these topics</p>
-                            <ul>
-                                <li>Phaser Game</li>
-                                <li>Computer Graphics</li>
-                                <li>Business Use Cases</li>
-                                <li>NFTs</li>
-                                <li>Collectibles</li>
-                            </ul>
-                            <ul>
-                                <li>Token Standards</li>
-                                <li>ERC721</li>
-                                <li>ERC1155</li>
-                                <li>ERC20</li>
-                                <li>Integration of Crypto into a Game</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
