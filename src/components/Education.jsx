@@ -54,8 +54,8 @@ const Textarea = styled.div`
         
         width: 85vw;
         height: 25px;
-        color: #fff;
-        font-size: 25px;
+        color: #ffd700;
+        font-size: 30px;
         margin: 0px 10px 0px 10px;
         padding: 10px;
         font-family: "Coolvetica";
