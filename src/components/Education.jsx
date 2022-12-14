@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faBitcoin } from '@fortawesome/free-brands-svg-icons';
-import { faGamepad, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 import Menu from "./Menu";
 
@@ -235,6 +235,7 @@ export default class Education extends Component{
                                 <li>Ethereum Oracles</li>
                                 <li>TestNet Development</li>
                                 <li>Ethereum DApps</li>
+                                <li>Token Standard ERC20</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
@@ -266,7 +267,7 @@ export default class Education extends Component{
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>ChainLink Programmin 101</h3>
+                            <h3>ChainLink Programming 101</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
@@ -316,11 +317,11 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
-                    <h2>Decentralized Finance</h2>
+                    <h2>Decentralized Finance and FinTech</h2>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>Fintech 101</h3>
+                            <h3>FinTech 101</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/> 
@@ -359,146 +360,114 @@ export default class Education extends Component{
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 9</h3>
+                            <h3>React Web Development</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
-                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
                                 <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
                                 <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
                                 <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                             </h4>
                         </SkillHeader>
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                            </ul>
-                            <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Creating React Apps</li>
+                                <li>API Communication</li>
+                                <li>Dev Environment for React</li>
+                                <li>Functional Components</li>
+                                <li>Class-based Components</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 10</h3>
+                            <h3>DeFi 101</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
                         </SkillHeader>
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>DApps</li>
+                                <li>Decentralized Money Market</li>
+                                <li>MetaMask</li>
+                                <li>DEXs</li>
                             </ul>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>DeFi Risk Analysis</li>
+                                <li>DeFi Financial Stack</li>
+                                <li>DeFi Account Security</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 11</h3>
+                            <h3>DeFi 201</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
                         </SkillHeader>
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Analysis</li>
+                                <li>Settlement Assurance</li>
+                                <li>Centrifuge</li>
+                                <li>Flash Loans</li>
+                                <li>Yield Hacking</li>
                             </ul>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>DeFi Interest Rate Swap</li>
+                                <li>DeFi Financial Stack</li>
+                                <li>Stablecoins</li>
+                                <li>Dezentralized Insurance</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 12</h3>
+                            <h3>Blockchain Business MasterClass</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
                         </SkillHeader>
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Industry Use Cases</li>
+                                <li>Centralized Systems</li>
+                                <li>Decentralized Systems</li>
+                                
                             </ul>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Hyperledger Fabric</li>
+                                <li>Hyperledger Composer</li>
+                                <li>Blockchain Tree</li>
+                                <li>Permissioned Blockchains</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 13</h3>
+                            <h3>Ethereum Game Programming</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
                                 <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
                                 <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                             </h4>
@@ -506,51 +475,44 @@ export default class Education extends Component{
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Phaser Game</li>
+                                <li>Computer Graphics</li>
+                                <li>Business Use Cases</li>
+                                <li>NFTs</li>
+                                <li>Collectibles</li>
                             </ul>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Token Standards</li>
+                                <li>ERC721</li>
+                                <li>ERC1155</li>
+                                <li>ERC20</li>
+                                <li>Integration of Crypto into a Game</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
 
                     <SkillContainer>
                         <SkillHeader>
-                            <h3>CERTIFICATE 14</h3>
+                            <h3>Blockchain for Enterprise – Baseline Protocol & Unibright</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
                         </SkillHeader>
                         <SkillText>
                         <p>In this course I learned and gained knowledge in these topics</p>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Unibright Framework</li>
+                                <li>Corda & Quorum</li>
+                                <li>Enterprise Blockchain</li>
+                                <li>Baseline Protocol</li>
                             </ul>
                             <ul>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
-                                <li>Skill 3</li>
+                                <li>Zero-Knowledge Proof</li>
+                                <li>Hyperledger</li>
+                                <li>Baseline & DeFi</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>

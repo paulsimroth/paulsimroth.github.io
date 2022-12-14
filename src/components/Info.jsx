@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
-import { faGamepad, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import styled from "styled-components";
 
@@ -45,7 +45,7 @@ const Textarea = styled.div`
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: -50px;
+            margin-top: -30px;
             left: -10px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
@@ -85,20 +85,20 @@ const Textarea = styled.div`
         animation: pulse 1s;
 
         &:nth-of-type(1) {
-            animation-delay: 1.1s;
+            animation-delay: 0.3s;
         }
         &:nth-of-type(2) {
-            animation-delay: 1.2s;
+            animation-delay: 0.4s;
         }
         &:nth-of-type(3) {
-            animation-delay: 1.3s;
+            animation-delay: 0.5s;
         }
     }
 `;
 
 const Toptag = styled.span`
     bottom: auto;
-    top: 35px;
+    top: 15px;
     color: #ffd700;
     opacity: 0.6;
     position: absolute;
@@ -108,7 +108,7 @@ const Toptag = styled.span`
 `;
 
 const Bottomtag = styled.span`
-    top: 90%;
+    top: 87vh;
     color: #ffd700;
     opacity: 0.6;
     position: absolute;
@@ -177,7 +177,7 @@ export default class Info extends Component{
                     <p>
                         During my time studying as well as during the projects completed during the courses 
                         I had the opportunity to familiarize myself with Javascript and Solidity aswell as React.js, HTML and CSS.
-                        Check out my skills, seen her on the right and also my projects which you can find on the Projects page.
+                        Check out my skills, seen here on the right or on the Education page. Check out the Porjects page to see my finished and ongoing projects.
                     </p>
                     <p>
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
@@ -225,7 +225,11 @@ export default class Info extends Component{
                     <div>
                         <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                         <p>Git</p>   
-                    </div>           
+                    </div> 
+                    <div>
+                        <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
+                        <p>Blockchain for Business, Use Cases</p>
+                    </div>         
                     
                 </SkillIcons>
                 <Bottomtag>
