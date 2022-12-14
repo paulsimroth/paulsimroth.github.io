@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 
 import Menu from "./Menu";
 
@@ -21,7 +24,7 @@ const Textarea = styled.div`
     position: absolute;
     left: 11%;
     top: -1vh;
-    margin-top: 30px;
+    margin-top: 5px;
     width: 89vw;
     height: 99vh;
     overflow: auto;
@@ -30,12 +33,12 @@ const Textarea = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: felx-start;
+    align-items: flex-start;
     flex: 1 1 100%;
     
     h1 {
         width: 80vw;
-        height: 9vh;
+        height: 60px;
         color: #ffd700;
         font-size: 50px;
         margin: 20px 10px 20px 10px;
@@ -62,11 +65,31 @@ const SkillContainer = styled.div`
     float: left;
     clear: none;
 
+    display: flex;
+    flex-direction: column;
+
     &:hover {
         transform: scale(1.05);
         border: 3px solid #ffd700;
         transition: all 0.5s ease;
     }
+
+
+
+    p {
+        text-align: justify;
+        font-style: 11px;
+        color: #fff;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
+    }
+`;
+
+const SkillHeader = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     h3 {
         color: #fff;
@@ -76,13 +99,13 @@ const SkillContainer = styled.div`
         font-weight: 400;
     }
 
-    p {
-        text-align: justify;
-        font-style: 11px;
+    h4 {
         color: #fff;
-        font-weight: 300;
-        min-width: fit-content;
-        animation: pulse 1s;
+        font-size: 15px;
+        margin: 5px;
+        font-family: "Coolvetica";
+        font-weight: 400;
+        letter-spacing: 4px;
     }
 `;
 
@@ -97,10 +120,23 @@ export default class Education extends Component{
                 <Textarea>
                     <h1>Here you can see my education</h1>
 
-
                     <SkillContainer>
-                        <h3>CERTIFICATE 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error cumque omnis veritatis vitae ducimus!</p>
+                        <SkillHeader>
+                            <h3>CERTIFICATE 1</h3>
+                            <h4>@ Moralis Academy</h4>
+                            <h4>I used and improved: 
+                                <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                                <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                                <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                                <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                                <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                                <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                            </h4>
+                        </SkillHeader>
+                        <div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere modi voluptatum, ipsa mollitia minima repellendus eum molestiae voluptas saepe rerum nemo, at, optio commodi quia ad. Vero facere nobis eius?</p>
+                        </div>
                     </SkillContainer>
 
                     <SkillContainer>

@@ -24,7 +24,7 @@ const Textarea = styled.div`
     position: absolute;
     left: 11%;
     top: -1vh;
-    margin-top: 30px;
+    margin-top: 5px;
     width: 89vw;
     height: 99vh;
     overflow: auto;
@@ -38,7 +38,7 @@ const Textarea = styled.div`
     
     h1 {
         width: 80vw;
-        height: 9vh;
+        height: 60px;
         color: #ffd700;
         font-size: 50px;
         margin: 20px 10px 20px 10px;

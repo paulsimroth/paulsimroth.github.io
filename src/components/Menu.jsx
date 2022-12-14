@@ -16,12 +16,12 @@ const Img = styled.img`
     height: auto;
     margin: 8px auto;
     pointer-events: none;
-    padding: 10px 0;
+    padding: 20px 0;
 `;
 
 const NavArea = styled.div`
     background: #181818;
-    width: 7%;
+    width: 7vw;
     height: 100vh;
     postion: absolute;
     top: 0;
