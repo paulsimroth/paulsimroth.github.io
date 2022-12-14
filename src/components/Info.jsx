@@ -136,9 +136,10 @@ const SkillIcons = styled.div`
     opacity: 0.8;
 
     div {
+        box-sizing: border-box;
         animation: backInDown 1s;
         padding: 4px;
-        width: 21px;
+        width: 120px;
         font-size: 18px;
         margin: 6px auto;
 
@@ -209,7 +210,7 @@ export default class Info extends Component{
 
                     <div>
                         <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
-                        <p>FinTech, Dezentralized Finance</p>
+                        <p>FinTech, Dezentralized Finance, DeFi Analysis</p>
                     </div>
                  
                     <div>
@@ -228,7 +229,7 @@ export default class Info extends Component{
                     </div> 
                     <div>
                         <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
-                        <p>Blockchain for Business, Use Cases</p>
+                        <p>Blockchain for Business, Use Cases, Hyperledger, Baseline Protocol</p>
                     </div>         
                     
                 </SkillIcons>

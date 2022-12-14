@@ -285,6 +285,7 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
+                    <h2>Full Stack</h2>
                     <SkillContainer>
                         <SkillHeader>
                             <h3>Ethereum Game Programming</h3>

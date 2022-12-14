@@ -58,7 +58,7 @@ const ProjectsDone = styled.div`
     h2 {
         width: 85vw;
         height: 25px;
-        color: #fff;
+        color: #ffd700;
         font-size: 25px;
         margin: 10px;
         padding: 10px;
@@ -74,7 +74,7 @@ const ProjectsCurr = styled.div`
     h2 {
         width: 85vw;
         height: 25px;
-        color: #fff;
+        color: #ffd700;
         font-size: 25px;
         margin: 10px;
         padding: 10px;
