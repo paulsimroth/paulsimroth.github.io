@@ -7,9 +7,9 @@ import Menu from "./Menu";
 
 /* Styling */
 const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     will-change: contents;
-    height: 90%;
+    height: 90vh;
     top: -1vh;
     min-height: 566px;
     position: absolute;
@@ -26,7 +26,7 @@ const Textarea = styled.div`
     top: -1vh;
     margin-top: 5px;
     width: 89vw;
-    height: 99vh;
+    height: 100vh;
     overflow: auto;
     overflow-x: hidden;
     display: flex;
@@ -41,7 +41,7 @@ const Textarea = styled.div`
         height: 60px;
         color: #ffd700;
         font-size: 50px;
-        margin: 20px 10px 20px 10px;
+        margin: 20px 10px 0px 10px;
         padding: 10px;
         font-family: "Coolvetica";
         font-weight: 400;
