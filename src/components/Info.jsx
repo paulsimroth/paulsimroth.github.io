@@ -163,11 +163,12 @@ const ContactBtn = styled.button`
     background: #044362; 
     font-size: 13px;
     font-weight: 400;
+    width: 200px;
     letter-spacing: 4px;
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid #ffd700;
-    margin: 25px 50px 0px 0px;
+    margin: 5px 30px 0px 0px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;

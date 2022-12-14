@@ -127,6 +127,10 @@ const SkillHeader = styled.div`
         margin: 5px;
         font-family: "Coolvetica";
         font-weight: 400;
+
+        svg {
+            margin: 1px 5px 0px 0px;
+        }
     }
 `;
 
