@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 import styled from "styled-components";
 
 import Menu from "./Menu";
@@ -157,6 +158,28 @@ const SkillIcons = styled.div`
     }
 `;
 
+const ContactBtn = styled.button`
+    color: #ffd700;
+    background: #044362; 
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin: 25px 50px 0px 0px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+        background: #ffd700;
+        color: #022c43;
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+    }
+`;
+
 /* Component*/
 
 export default class Info extends Component{
@@ -183,6 +206,10 @@ export default class Info extends Component{
                     <p>
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
                     </p>
+                    <br/>
+                    <Link to="/education" ><ContactBtn>MY EDUCATION</ContactBtn></Link>
+                    
+                    <Link to="/projects" ><ContactBtn>MY PROJECTS</ContactBtn></Link>
                     
                 </Textarea>
                 

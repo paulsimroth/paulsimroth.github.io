@@ -174,6 +174,8 @@ const SendButton = styled.input`
     &:hover {
         background: #ffd700;
         color: #022c43;
+        transform: scale(1.1);
+        transition: all 0.5s ease;
     }
 `;
 
