@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
-import { faGamepad } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import styled from "styled-components";
 
@@ -206,11 +206,17 @@ export default class Info extends Component{
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                         <p>Solidity (EVM, ERC20, ERC721, ERC1155), Truffle, Openzeppelin, Hardhat, ChainLink, Oracles</p>
                     </div>
+
+                    <div>
+                        <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
+                        <p>FinTech, Dezentralized Finance</p>
+                    </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
                         <p>React.js, Axios</p>
                     </div>
+
                     <div>
                         <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
                         <p>Game Development: Phaser</p>   
@@ -219,7 +225,7 @@ export default class Info extends Component{
                     <div>
                         <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                         <p>Git</p>   
-                    </div>              
+                    </div>           
                     
                 </SkillIcons>
                 <Bottomtag>

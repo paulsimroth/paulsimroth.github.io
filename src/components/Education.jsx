@@ -283,7 +283,7 @@ export default class Education extends Component{
                             </ul>
                         </SkillText>
                     </SkillContainer>
-                    
+
                     <h2>Frontend Development</h2>
 
                     <SkillContainer>
@@ -323,7 +323,7 @@ export default class Education extends Component{
                             <h3>Fintech 101</h3>
                             <h4>@Moralis Academy</h4>
                             <h4>Topics: <br/>
-                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#ffffcc"/> 
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/> 
                             </h4>
                         </SkillHeader>
                         <SkillText>
