@@ -173,30 +173,6 @@ export default class Projects extends Component{
                     </ProjectContainer>
 
                     <ProjectContainer>
-                        <h3>Ethereum Game</h3>
-                        <p>
-                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
-                        For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
-                        </p>
-                        <SkillContainer>
-                            <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
-                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
-                            <div>
-                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
-                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                                </a>
-                            </div>
-                            <div>
-                                <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/eth_game/">
-                                    <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
-                                </a>
-                            </div>
-                        </SkillContainer>
-                    </ProjectContainer>
-
-                    <ProjectContainer>
                         <h3>Metaverse</h3>
                         <p>
                             Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse".
@@ -298,7 +274,31 @@ export default class Projects extends Component{
                 </ProjectsDone>
                 
                 <ProjectsCurr>
-                    <h2>These are my study projects currently under development or revision.</h2>   
+                    <h2>These are my study projects currently under development or revision.</h2>
+
+                    <ProjectContainer>
+                        <h3>Ethereum Game</h3>
+                        <p>
+                        In this repository you can see my version of the game coded as part of the course "Ethereum Game Programming" at Moralis Academy. 
+                        For the game Phaser 3.15.1 was used. The boosts earned in-game are ERC1155 Tokens and affect the game mechanics, like speed, coin generation and time.
+                        </p>
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
+                            <div>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_game">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
+                            </div>
+                            <div>
+                                <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/eth_game/">
+                                    <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                                </a>
+                            </div>
+                        </SkillContainer>
+                    </ProjectContainer>
                     
                     <ProjectContainer>
                         <h3>NFT Marketplace</h3>
