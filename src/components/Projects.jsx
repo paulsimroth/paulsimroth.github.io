@@ -159,7 +159,8 @@ export default class Projects extends Component{
                         <h3>Realestate Platform</h3>
                         <p>
                         With this project I tried out Hardhat and wanted to familiarize myself with this development tool.
-                        I followed a tutorial by Dapp University which is linked in the README. It is a smart contract with basic functions needed for a transaction including different roles like buyer, seller, lender and inspector.
+                        I followed a tutorial by Dapp University which is linked in the README. 
+                        It is a smart contract with basic functions needed for a transaction including different roles like buyer, seller, lender and inspector.
                         </p>
                         <SkillContainer>
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -201,8 +202,8 @@ export default class Projects extends Component{
                         <h3>Metaverse</h3>
                         <p>
                             Here you can find my version of the Moraland metaverse done as part of the course "Create your Metaverse".
-                            As part of the course the the interaction between the ERC721 contract and Frontend was done with the now deprecated version of Moralis Servers V1. 
-                            I instead chose Ethers.js to handle the interaction instead and also slightly changed the smart contract.
+                            As part of the course the the interaction between the ERC721 contract and Frontend was done with Moralis Servers V1. 
+                            I instead chose Ethers.js to handle the interaction and also slightly changed the smart contract.
                         </p>
                         <SkillContainer>   
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -263,12 +264,11 @@ export default class Projects extends Component{
                     </ProjectContainer>
 
                     <ProjectContainer>
-                        <h3>Decentralized ERC20 Exchange</h3>
+                        <h3>Ethereum DEX</h3>
                         <p>
-                            The project is using Truffle and Openzeppelin. 
-                            It consists of a wallet smart contract and a dex contract which inherits from the wallet. 
-                            The token contract is there for testing.
-                            This Solidity project was done during the Ethereum Smart Contract Programming 201 Course at Moralis Academy.
+                            This project was done as part of the Ethereum Programming 201 course at Moralis Academy. 
+                            It is my first introduction into using the ERC20 Standard and also improved my knowledge of coding with Solidity.
+                            The project is using Truffle and Openzeppelin and consists of a Token, a Wallet and the DEX smart contract.
                         </p>
                         <SkillContainer>
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
