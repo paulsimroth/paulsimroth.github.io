@@ -139,8 +139,8 @@ const SkillIcons = styled.div`
     div {
         box-sizing: border-box;
         animation: backInDown 1s;
-        padding: 4px;
-        width: 120px;
+        padding: 3px;
+        width: 170px;
         font-size: 18px;
         margin: 6px auto;
 
@@ -218,7 +218,7 @@ export default class Info extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p>JavaScript, ES6, Ethers.Js</p>
+                        <p>JavaScript | API Communication</p>
                     </div>
 
                     <div>
@@ -228,22 +228,22 @@ export default class Info extends Component{
            
                     <div>
                         <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                        <p>CSS, Bootstrap</p>
+                        <p>CSS | Bootstrap</p>
                     </div>
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity (EVM, ERC20, ERC721, ERC1155), Truffle, Openzeppelin, Hardhat, ChainLink, Oracles</p>
+                        <p>Solidity (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | Openzeppelin | ChainLink | Oracles | DApp Development | Ethers.Js</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
-                        <p>FinTech, Dezentralized Finance, DeFi Analysis</p>
+                        <p>FinTech | Dezentralized Finance | DeFi Analysis</p>
                     </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                        <p>React.js, Axios</p>
+                        <p>React.js | Axios</p>
                     </div>
 
                     <div>
@@ -253,11 +253,11 @@ export default class Info extends Component{
 
                     <div>
                         <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
-                        <p>Git</p>   
+                        <p>Git | GitHub</p>   
                     </div> 
                     <div>
                         <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
-                        <p>Blockchain for Business, Use Cases, Hyperledger, Baseline Protocol</p>
+                        <p>Blockchain for Business | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
                     </div>         
                     
                 </SkillIcons>
