@@ -298,6 +298,7 @@ export default class Education extends Component{
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
                                 <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                                <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
                                 <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                             </h4>
                         </SkillHeader>
