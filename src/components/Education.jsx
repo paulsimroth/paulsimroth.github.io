@@ -152,7 +152,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Blockchain and Bitcoin</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faBitcoin} color= "#FF9900"/>
                             </h4>
@@ -172,7 +172,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Ethereum 101</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                             </h4>
                         </SkillHeader>
@@ -196,7 +196,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Ethereum Smart Contract Programming 101</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                             </h4>
                         </SkillHeader>
@@ -222,7 +222,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Ethereum Smart Contract Programming 201</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
                             </h4>
@@ -248,7 +248,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Ethereum Smart Contract Security</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                             </h4>
                         </SkillHeader>
@@ -273,7 +273,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>ChainLink Programming 101</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                             </h4>
                         </SkillHeader>
@@ -294,7 +294,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Ethereum Game Programming</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
                                 <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
@@ -326,7 +326,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>JavaScript Programming for Blockchain Developers</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics:  <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
                                 <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
@@ -356,7 +356,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>React Web Development</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
                                 <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
                                 <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
@@ -382,7 +382,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>FinTech 101</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/> 
                             </h4>
                         </SkillHeader>
@@ -407,7 +407,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>DeFi 101</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
@@ -432,7 +432,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>DeFi 201</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
                             </h4>
@@ -461,7 +461,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Blockchain Business MasterClass</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
@@ -488,7 +488,7 @@ export default class Education extends Component{
                         <SkillHeader>
                             <h3>Blockchain for Enterprise – Baseline Protocol & Unibright</h3>
                             <h4>@Moralis Academy</h4>
-                            <h4>Topics: <br/>
+                            <h4>Subjects: <br/>
                                 <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                                 <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
                                 <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
