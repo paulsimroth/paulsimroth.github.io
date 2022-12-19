@@ -77,13 +77,13 @@ const SkillContainer = styled.div`
     box-sizing: border-box;
     float: left;
     clear: none;
-
+    animation: pulse 1s;
     display: flex;
     flex-direction: column;
 
     &:hover {
         transform: scale(1.05);
-        border: 3px solid #ffd700;
+        box-shadow: 3px 3px 7px #181818;
         transition: all 0.5s ease;
     }
 
@@ -94,7 +94,6 @@ const SkillText = styled.div`
     justify-content: space-between;    
     color: #fff;
     font-weight: 300;
-    animation: pulse 1s;
     
     p {
         text-align: justify;

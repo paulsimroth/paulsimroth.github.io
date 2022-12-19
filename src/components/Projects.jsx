@@ -96,10 +96,11 @@ const ProjectContainer = styled.div`
     box-sizing: border-box;
     float: left;
     clear: none;
+    animation: pulse 1s;
 
     &:hover {
         transform: scale(1.05);
-        border: 3px solid #ffd700;
+        box-shadow: 3px 3px 7px #181818;
         transition: all 0.5s ease;
     }
 
@@ -117,7 +118,6 @@ const ProjectContainer = styled.div`
         color: #fff;
         font-weight: 300;
         min-width: fit-content;
-        animation: pulse 1s;
     }
 `;
 
