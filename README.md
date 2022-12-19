@@ -6,6 +6,7 @@ Feel free to reach out to me and visit my page! https://paulsimroth.github.io/
 ## Technology Stack & Tools
 
 - Javascript (React)
+- [Animate.css](https://animate.style/) (Animations library)
 - [React routers](https://v5.reactrouter.com/) (Navigational components)
 - [EmailJs](https://www.emailjs.com/) (Sending Emails from contact form)
 
