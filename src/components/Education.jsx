@@ -83,7 +83,7 @@ const SkillContainer = styled.div`
 
     &:hover {
         transform: scale(1.05);
-        box-shadow: 3px 3px 7px #181818;
+        box-shadow: 5px 5px 8px #595959;
         transition: all 0.5s ease;
     }
 
