@@ -7,7 +7,7 @@ Feel free to reach out to me and visit my page! https://paulsimroth.github.io/
 
 - Javascript (React)
 - [Animate.css](https://animate.style/) (Animations library)
-- [React routers](https://v5.reactrouter.com/) (Navigational components)
+- [React router](https://reactrouter.com/en/v6.3.0) (Navigational components)
 - [EmailJs](https://www.emailjs.com/) (Sending Emails from contact form)
 
 ## Disclaimer
