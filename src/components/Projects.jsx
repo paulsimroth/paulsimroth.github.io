@@ -261,7 +261,7 @@ export default class Projects extends Component{
                     <ProjectContainer>
                         <h3>JS DEX Frontend</h3>
                         <p>
-                            This DEX Frontend was built as part of the course "Javascript for Blockchain Developers"at Moralis Academy. 
+                            This DEX Frontend was built as part of the course "Javascript for Blockchain Developers" at Moralis Academy. 
                             It was built using the Coinpaprika API for fetching data on the top ranked coins.
                             Furthermore we made use of Moralis Server V1 aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps.
                         </p>
