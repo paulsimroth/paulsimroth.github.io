@@ -151,10 +151,29 @@ export default class Projects extends Component{
                 <Menu/>
                 <Textarea>
                     <h1>Welcome to my projects page.</h1>
-                    
                 <ProjectsDone>
+                    <hr/>
                     <h2>These are my finished study projects, listed newest to oldest.</h2>
 
+                    <ProjectContainer>
+                        <h3>ETH Domain Website</h3>
+                        <p>
+                        Here the goal was to build a Web3 version of GoDaddy and something similar to ENS.
+                        I followed a tutorial by Dapp University which is linked in the README.
+                        It consists of a smart contract and a React Frontend where you can see domains, purchase them or see their owner.
+                        </p>
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
+                            <div>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_domain_platform">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
+                            </div>
+                        </SkillContainer>
+                    </ProjectContainer>
+                    
                     <ProjectContainer>
                         <h3>Realestate Platform</h3>
                         <p>
@@ -299,8 +318,9 @@ export default class Projects extends Component{
                 </ProjectsDone>
                 
                 <ProjectsCurr>
+                    <hr/>
                     <h2>These are my study projects currently under development or revision.</h2>
-                    
+
                     <ProjectContainer>
                         <h3>NFT Marketplace</h3>
                         <p>

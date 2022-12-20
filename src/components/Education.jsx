@@ -320,7 +320,7 @@ export default class Education extends Component{
                             </ul>
                         </SkillText>
                     </SkillContainer>
-
+                    
                     <h2>Frontend Development</h2>
 
                     <SkillContainer>
