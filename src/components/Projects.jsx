@@ -22,7 +22,7 @@ const Container = styled.div`
 
 const Textarea = styled.div`
     position: absolute;
-    left: 11%;
+    left: 10%;
     top: -1vh;
     margin-top: 5px;
     width: 89vw;
@@ -152,7 +152,7 @@ export default class Projects extends Component{
                 <Textarea>
                     <h1>Welcome to my projects page.</h1>
                 <ProjectsDone>
-                    <hr/>
+                    
                     <h2>These are my finished study projects, listed newest to oldest.</h2>
 
                     <ProjectContainer>
@@ -318,7 +318,7 @@ export default class Projects extends Component{
                 </ProjectsDone>
                 
                 <ProjectsCurr>
-                    <hr/>
+                    
                     <h2>These are my study projects currently under development or revision.</h2>
 
                     <ProjectContainer>

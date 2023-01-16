@@ -22,7 +22,7 @@ const Container = styled.div`
 
 const Textarea = styled.div`
     position: absolute;
-    left: 11%;
+    left: 10%;
     top: -1vh;
     margin-top: 5px;
     width: 89vw;

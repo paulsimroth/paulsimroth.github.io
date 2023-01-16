@@ -25,7 +25,7 @@ const Container = styled.div`
 const Textarea = styled.div`
     position: absolute;
     left: 15%;
-    top: 50%;
+    top: 51%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;

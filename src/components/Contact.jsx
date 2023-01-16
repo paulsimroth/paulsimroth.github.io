@@ -163,18 +163,17 @@ const Contactform = styled.div`
 const SendButton = styled.input`
     color: #ffd700;
     background: 0 0;
-    font: 11px;
+    font: 12px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 2px solid #ffd700;
     float: right;
     border-radius: 4px;
 
     &:hover {
         background: #ffd700;
         color: #022c43;
-        transform: scale(1.1);
         transition: all 0.5s ease;
     }
 `;
