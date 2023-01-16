@@ -460,6 +460,29 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
+                    <SkillContainer>
+                        <SkillHeader>
+                            <h3>Technical Analysis 101</h3>
+                            <h4>@Moralis Academy</h4>
+                            <h4>Subjects: <br/>
+                                <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                        <p>In this course I learned and gained knowledge in these topics</p>
+                            <ul>
+                                <li>Trading Basics</li>
+                                <li>Technical Indicators</li>
+                                <li>Technical Analysis Fundamentals</li>
+                            </ul>
+                            <ul>
+                                <li>Trading Strategies</li>
+                                <li>TradingView</li>
+                                <li>Independent Trading</li>
+                            </ul>
+                        </SkillText>
+                    </SkillContainer>
+
                     <h2>Blockchain & Business</h2>
 
                     <SkillContainer>
@@ -515,13 +538,13 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
-                    <h2>Other; Academic Education</h2>
+                    <h2>Academic Education</h2>
 
                     <SkillContainer>
                         <SkillHeader>
                             <h3>Bachelor of Arts, History</h3>
                             <h4>@University of Vienna</h4>
-                            <h4>Subjects: <br/>
+                            <h4>Subject: <br/>
                                 <p>History</p>
                             </h4>
                         </SkillHeader>
