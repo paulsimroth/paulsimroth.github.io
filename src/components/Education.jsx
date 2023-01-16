@@ -130,6 +130,10 @@ const SkillHeader = styled.div`
         svg {
             margin: 1px 5px 0px 0px;
         }
+
+        p {
+            margin: 1px 5px 0px 0px;
+        }
     }
 `;
 
@@ -145,7 +149,7 @@ export default class Education extends Component{
                     <h1>Here you can see my education</h1>
 
 
-                    <h2>Ethereum and Blockchain Basics</h2>
+                    <h2>Ethereum & Blockchain Basics</h2>
 
                     <SkillContainer>
                         <SkillHeader>
@@ -377,7 +381,7 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
-                    <h2>Decentralized Finance and FinTech</h2>
+                    <h2>Decentralized Finance, FinTech & Trading</h2>
 
                     <SkillContainer>
                         <SkillHeader>
@@ -456,7 +460,7 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
-                    <h2>Blockchain and Business</h2>
+                    <h2>Blockchain & Business</h2>
 
                     <SkillContainer>
                         <SkillHeader>
@@ -507,6 +511,31 @@ export default class Education extends Component{
                                 <li>Zero-Knowledge Proof</li>
                                 <li>Hyperledger</li>
                                 <li>Baseline & DeFi</li>
+                            </ul>
+                        </SkillText>
+                    </SkillContainer>
+
+                    <h2>Other; Academic Education</h2>
+
+                    <SkillContainer>
+                        <SkillHeader>
+                            <h3>Bachelor of Arts, History</h3>
+                            <h4>@University of Vienna</h4>
+                            <h4>Subjects: <br/>
+                                <p>History</p>
+                            </h4>
+                        </SkillHeader>
+                        <SkillText>
+                        <p>In this degree I learned and gained knowledge in these topics</p>
+                            <ul>
+                                <li>Sientific methods</li>
+                                <li>Research processes</li>
+                                <li>Theories of Historical sience</li>
+                            </ul>
+                            <ul>
+                                <li>Introduction to Czech</li>
+                                <li>History of different geographic areas, topics and periods</li>
+                                <li>Working with primary sources</li>
                             </ul>
                         </SkillText>
                     </SkillContainer>
