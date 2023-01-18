@@ -345,7 +345,8 @@ export default class Projects extends Component{
                         <h3>NFT Marketplace</h3>
                         <p>
                         This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
-                        My version features bears instead of cats. The msg.sender can mint 10 Generation 0 bears. after that you can breed bears, where the DNA of the parents determines the features of the new bear.                     
+                        My version features bears instead of cats. The owner can mint 10 Generation 0 bears. after that you can breed bears, 
+                        where the parents´ DNA determines the features of the new bear.                     
                         </p>
                         <SkillContainer>
                             <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
