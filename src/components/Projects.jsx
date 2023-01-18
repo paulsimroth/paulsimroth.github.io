@@ -322,6 +322,26 @@ export default class Projects extends Component{
                     <h2>These are my study projects currently under development or revision.</h2>
 
                     <ProjectContainer>
+                        <h3>ETH Online Market</h3>
+                        <p>
+                        Here the goal was to build a Web3 version of a Marketplace, inspired by Amazon.
+                        I followed a tutorial by Dapp University which is linked in the README.
+                        It consists of a smart contract and a React Frontend where you can see items and buy them. 
+                        The contract owner can list items and also withdraw ETH form the samrt contract.
+                        </p>
+                        <SkillContainer>
+                            <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                            <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                            <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
+                            <div>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/web3market">
+                                    <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                                </a>
+                            </div>
+                        </SkillContainer>
+                    </ProjectContainer>
+
+                    <ProjectContainer>
                         <h3>NFT Marketplace</h3>
                         <p>
                         This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
