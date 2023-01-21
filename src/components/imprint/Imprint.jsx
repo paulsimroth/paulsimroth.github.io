@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 
-import Menu from "./Menu";
+import Menu from "../menu/Menu";
 
 /* Styling */
 const Container = styled.div`

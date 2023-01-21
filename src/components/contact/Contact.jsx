@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled from "styled-components";
 import emailjs from '@emailjs/browser';
-import Menu from "./Menu";
+import Menu from "../menu/Menu";
 
 /* Styling */
 const Container = styled.div`

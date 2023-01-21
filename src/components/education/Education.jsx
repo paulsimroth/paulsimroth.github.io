@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faBitcoin } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
-import Menu from "./Menu";
+import Menu from "../menu/Menu";
 
 /* Styling */
 const Container = styled.div`

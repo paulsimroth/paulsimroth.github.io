@@ -4,23 +4,11 @@ import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-s
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components";
+import "./info.css";
 
-import Menu from "./Menu";
+import Menu from "../menu/Menu";
 
 /* Styling */
-const Container = styled.div`
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    top: -1vh;
-    min-height: 566px;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    font-family: 'Segoe UI';
-`;
 
 const Textarea = styled.div`
     position: absolute;
@@ -97,31 +85,6 @@ const Textarea = styled.div`
     }
 `;
 
-const Toptag = styled.span`
-    bottom: auto;
-    top: 15px;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    font-size: 18px;
-`;
-
-const Bottomtag = styled.span`
-    top: 87vh;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 10px;
-    left: 10%;
-    font-size: 18px;
-`;
-
-const HTMLTag = styled.span`
-    margin-left: -20px;
-`;
-
 const SkillIcons = styled.div`
     display: flex;
     width: 45vw;
@@ -158,38 +121,15 @@ const SkillIcons = styled.div`
     }
 `;
 
-const ContactBtn = styled.button`
-    color: #ffd700;
-    background: #044362; 
-    font-size: 13px;
-    font-weight: 400;
-    width: 200px;
-    letter-spacing: 4px;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    margin: 5px 30px 0px 0px;
-    float: left;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-
-    &:hover {
-        background: #ffd700;
-        color: #022c43;
-        transform: scale(1.1);
-        transition: all 0.5s ease;
-    }
-`;
-
 /* Component*/
 
 export default class Info extends Component{
     render(){
         return(
             
-            <Container>
+            <div className='container'>
                 <Menu/>
-                <Toptag>&lt;body&gt;</Toptag>
+                <span className='top_tag'>&lt;body&gt;</span>
                 <Textarea>
                     <h1>
                         About me
@@ -208,9 +148,9 @@ export default class Info extends Component{
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
                     </p>
                     <br/>
-                    <Link to="/education" ><ContactBtn>MY EDUCATION</ContactBtn></Link>
+                    <Link to="/education" ><button>MY EDUCATION</button></Link>
                     
-                    <Link to="/projects" ><ContactBtn>MY PROJECTS</ContactBtn></Link>
+                    <Link to="/projects" ><button>MY PROJECTS</button></Link>
                     
                 </Textarea>
                 
@@ -261,12 +201,12 @@ export default class Info extends Component{
                     </div>         
                     
                 </SkillIcons>
-                <Bottomtag>
+                <span className='bottom_tag'>
                     &lt;/body&gt;
                     <br/>
-                    <HTMLTag>&lt;/html&gt;</HTMLTag>
-                </Bottomtag> 
-            </Container>
+                    <span className='html_tag'>&lt;/html&gt;</span>
+                </span> 
+            </div>
             
         )
     }

@@ -2,13 +2,13 @@ import React from 'react';
 import "animate.css";
 import {Routes, Route} from "react-router-dom";
 
-import Home from './components/Home';
-import Info from './components/Info';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Data from './components/Data';
-import Imprint from './components/Imprint';
+import Home from './components/home/Home';
+import Info from './components/info/Info';
+import Education from './components/education/Education';
+import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
+import Data from './components/data/Data';
+import Imprint from './components/imprint/Imprint';
 
 function App() {
   return (
