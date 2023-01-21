@@ -185,7 +185,7 @@ export default class Projects extends Component{
                     <h2>These are my study projects currently under development or revision.</h2>
 
                     <div className='project_box'>
-                        <h3>ETH Online Market</h3>
+                        <h3>Web3 Online Shop</h3>
                         <p>
                         Here the goal was to build a Web3 version of a Marketplace, inspired by Amazon.
                         I followed a tutorial by Dapp University which is linked in the README.
