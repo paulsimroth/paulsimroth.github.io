@@ -3,123 +3,9 @@ import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@for
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
-import styled from "styled-components";
 import "./info.css";
 
 import Menu from "../menu/Menu";
-
-/* Styling */
-
-const Textarea = styled.div`
-    position: absolute;
-    left: 15%;
-    top: 51%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
-
-    h1 {
-        color: #ffd700;
-        font-size: 53px;
-        margin-top: 0;
-        font-family: "Coolvetica";
-        font-weight: 400;
-        position: relative;
-        margin-bottom: 40px;
-
-        &::before {
-            content: "<h1>";
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -30px;
-            left: -10px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-            line-height: 18px;
-        }
-
-        &::after {
-            content: "</h1>";
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-            line-height: 18px;
-            left: -30px;
-            bottom: -20px;
-        }
-    }
-
-    h2 {
-        color: #8d8d8d;
-        margin-top: 30px;
-        font-weight: 400;
-        font-size: 11px;
-        letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
-    }
-
-    p {
-        text-align: justify;
-        font-size: 16px;
-        color: #fff;
-        letter-spacing: 2px;
-        font-weight: 300;
-        min-width: fit-content;
-        animation: pulse 1s;
-
-        &:nth-of-type(1) {
-            animation-delay: 0.3s;
-        }
-        &:nth-of-type(2) {
-            animation-delay: 0.4s;
-        }
-        &:nth-of-type(3) {
-            animation-delay: 0.5s;
-        }
-    }
-`;
-
-const SkillIcons = styled.div`
-    display: flex;
-    width: 45vw;
-    right: 3vw;
-    height: 98vh;
-    top: 2vh;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    overflow: visible;
-    position: absolute;
-    opacity: 0.8;
-
-    div {
-        box-sizing: border-box;
-        animation: backInDown 1s;
-        padding: 3px;
-        width: 170px;
-        font-size: 18px;
-        margin: 6px auto;
-
-        &:hover {
-            transform: scale(1.2);
-            transition: all 0.5s ease;
-        }
-    }
-
-    p {
-        font-size: 14px;
-        color: #8d8d8d;
-        letter-spacing: 2px;
-        font-weight: 300;
-    }
-`;
 
 /* Component*/
 
@@ -130,7 +16,7 @@ export default class Info extends Component{
             <div className='container'>
                 <Menu/>
                 <span className='top_tag'>&lt;body&gt;</span>
-                <Textarea>
+                <div className='text_area'>
                     <h1>
                         About me
                     </h1>
@@ -152,9 +38,9 @@ export default class Info extends Component{
                     
                     <Link to="/projects" ><button>MY PROJECTS</button></Link>
                     
-                </Textarea>
+                </div>
                 
-                <SkillIcons>
+                <div className='skill_icons'>
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
@@ -200,7 +86,8 @@ export default class Info extends Component{
                         <p>Blockchain for Business | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
                     </div>         
                     
-                </SkillIcons>
+                </div>
+
                 <span className='bottom_tag'>
                     &lt;/body&gt;
                     <br/>
