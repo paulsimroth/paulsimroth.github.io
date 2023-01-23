@@ -4,7 +4,7 @@ import Menu from "../menu/Menu";
 
 import "./contact.css";
 
-/* functional Component*/
+/*Component*/
 
 export default function Contact (){
 

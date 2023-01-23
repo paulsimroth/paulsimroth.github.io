@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import Menu from "../menu/Menu";
 
-/* Component*/
+/*Component*/
 
 export default class Home extends Component{
     render(){
