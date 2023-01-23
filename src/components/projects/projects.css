@@ -1,47 +1,4 @@
-.projects_container {
-    width: 100vw;
-    will-change: contents;
-    height: 90vh;
-    top: -1vh;
-    min-height: 566px;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    font-family: 'Segoe UI';
-}
 
-.project_textarea {
-    position: absolute;
-    left: 10%;
-    top: 1vh;
-    margin-top: 5px;
-    width: 90vw;
-    height: 100vh;
-    overflow: auto;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex: 1 1 100%;
-}
-
-.project_textarea h1 {
-    width: 80vw;
-    height: 60px;
-    color: #ffd700;
-    font-size: 50px;
-    margin: 20px 10px 0px 10px;
-    padding: 10px;
-    font-family: "Coolvetica";
-    font-weight: 400;
-    animation: fadeIn 1s 0.5s backwards;
-    z-index: 5;
-    flex: 1 1 100%;
-}
 
 .project_area {
     width: 88vw;

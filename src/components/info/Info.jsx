@@ -34,9 +34,9 @@ export default class Info extends Component{
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
                     </p>
                     <br/>
-                    <Link to="/education" ><button>MY EDUCATION</button></Link>
+                    <Link to="/education" ><button className='button1'>MY EDUCATION</button></Link>
                     
-                    <Link to="/projects" ><button>MY PROJECTS</button></Link>
+                    <Link to="/projects" ><button className='button1'>MY PROJECTS</button></Link>
                     
                 </div>
                 

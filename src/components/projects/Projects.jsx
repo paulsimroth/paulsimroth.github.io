@@ -10,9 +10,9 @@ import "./projects.css";
 export default class Projects extends Component{
     render(){
         return(
-            <div className='projects_container'>
+            <div className='container'>
                 <Menu/>
-                <div className='project_textarea'>
+                <div className='text_area2'>
                     <h1>Welcome to my projects page.</h1>
                     <div className='project_area'>
                     

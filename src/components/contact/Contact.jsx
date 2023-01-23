@@ -3,20 +3,10 @@ import styled from "styled-components";
 import emailjs from '@emailjs/browser';
 import Menu from "../menu/Menu";
 
+import "./contact.css";
+
 /* Styling */
-const Container = styled.div`
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    top: -1vh;
-    min-height: 566px;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 0.5s forwards;
-    font-family: 'Segoe UI';
-`;
+
 
 const Textarea = styled.div`
     position: absolute;
@@ -76,107 +66,10 @@ const Textarea = styled.div`
     }
 `;
 
-const Toptag = styled.span`
-    bottom: auto;
-    top: 35px;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    font-size: 18px;
-`;
 
-const Bottomtag = styled.span`
-    top: 90%;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 10px;
-    left: 10%;
-    font-size: 18px;
-`;
 
-const HTMLTag = styled.span`
-    margin-left: -20px;
-`;
 
-const Contactform = styled.div`
-    width: 100%;
-    margin-top: 20px;
 
-    ul {
-        padding: 0;
-        margin: 0;
-
-        li {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            overflow: hidden;
-            display: block;
-            position: relative;
-            opacity: 0;
-            animation: fadeInUp 2s 2s;
-            animation-fill-mode: forwards;
-            clear: both;
-        } 
-        
-        .half {
-            width: 49%;
-            margin-left: 2%;
-            float: left;
-            clear: none;
-
-            &:first-child {
-                margin: 0;
-            }
-        }
-    }
-
-    input[type="text"],
-    input[type="email"] {
-        width: 100%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
-
-    textarea {
-        width: 100%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        min-height: 150px;
-        padding: 10px 20px;
-        box-sizing: border-box;
-    }
-`;
-
-const SendButton = styled.input`
-    color: #ffd700;
-    background: 0 0;
-    font: 12px;
-    letter-spacing: 3px;
-    text-decoration: none;
-    padding: 8px 10px;
-    border: 2px solid #ffd700;
-    float: right;
-    border-radius: 4px;
-
-    &:hover {
-        background: #ffd700;
-        color: #022c43;
-        transition: all 0.5s ease;
-    }
-`;
 
 
 /* functional Component*/
@@ -207,9 +100,9 @@ export default function Contact (){
 
     return(
         
-        <Container>
+        <div className='container'>
             <Menu/>
-            <Toptag>&lt;body&gt;</Toptag>
+            <div className='top_tag'>&lt;body&gt;</div>
             <Textarea>
                 <h1>Contact Me!</h1>
                 <p>
@@ -217,7 +110,7 @@ export default function Contact (){
                     Also, if you have any other questions do not hesitate to contact me using the form below.
                 </p>
                 <p style={{color: "#ffd700"}}>By clicking the send button you confirm that you have seen and accepted the Privacy Policy!</p>
-                <Contactform>
+                <div className='contact_form'>
                     <form ref = {refForm} onSubmit = {sendEmail}>
                         <ul>
                             <li className='half'>
@@ -252,21 +145,22 @@ export default function Contact (){
                                 </textarea>
                             </li>
                             <li>
-                                <SendButton
+                                <input
+                                className='send_btn'
                                 type = "submit"
                                 value = "Send">
-                                </SendButton>
+                                </input>
                             </li>
                         </ul>
                     </form>
-                </Contactform>
+                </div>
             </Textarea>
-            <Bottomtag>
+            <div className='bottom_tag'>
                 &lt;/body&gt;
                 <br/>
-                <HTMLTag>&lt;/html&gt;</HTMLTag>
-            </Bottomtag> 
-        </Container>
+                <div className='html_tag'>&lt;/html&gt;</div>
+            </div> 
+        </div>
         
     )
 };

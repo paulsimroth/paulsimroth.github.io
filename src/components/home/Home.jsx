@@ -5,19 +5,7 @@ import {Link} from "react-router-dom";
 import Menu from "../menu/Menu";
 
 /* Styling */
-const Container = styled.div`
-    width: 100vw;
-    will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 1;
-    top: -1vh;
-    transform-style: preserve-3d;
-    animation: fadeIn 0.3s forwards;
-    font-family: 'Segoe UI';
-`;
+
 
 const Textarea = styled.div`
     position: absolute;
@@ -66,80 +54,31 @@ const Textarea = styled.div`
         animation: fadeIn 1s 1.8s backwards;
     }
 `;
-
-const Toptag = styled.span`
-    bottom: auto;
-    top: 35px;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    font-size: 18px;
-`;
-
-const Bottomtag = styled.span`
-    top: 90%;
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 10px;
-    left: 10%;
-    font-size: 18px;
-`;
-
-const HTMLTag = styled.span`
-    margin-left: -20px;
-`;
-
-const ContactBtn = styled.button`
-    color: #ffd700;
-    background: #044362; 
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    margin-top: 25px;
-    float: left;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-
-    &:hover {
-        background: #ffd700;
-        color: #022c43;
-        transform: scale(1.1);
-        transition: all 0.5s ease;
-    }
-`;
-
 /* Component*/
 
 export default class Home extends Component{
     render(){
         return(
             
-            <Container>
+            <div className='container'>
                 <Menu/>
-                <Toptag>&lt;body&gt;</Toptag>
+                <div className='top_tag'>&lt;body&gt;</div>
                 <Textarea>
                     <h1>Hi, <br/> I´m Paul. <br/> blockchain developer.</h1>
                     <br/>
                     <h2>Solidity / Javascript / React.js / CSS / HTML</h2>  
                     <br/>
-                    <Link to="/contact" ><ContactBtn>CONTACT ME</ContactBtn></Link>
+                    <Link to="/contact" ><button className='button1'>CONTACT ME</button></Link>
 
                 </Textarea>
                 
-                <Bottomtag>
+                <div className='bottom_tag'>
                     &lt;/body&gt;
                     <br/>
-                    <HTMLTag>&lt;/html&gt;</HTMLTag>
-                </Bottomtag>
-            </Container>
+                    <div className='html_tag'>&lt;/html&gt;</div>
+                </div>
+            </div>
            
-            
         )
     }
 };

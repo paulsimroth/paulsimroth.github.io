@@ -4,28 +4,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faBitcoin } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
+import "./education.css";
 import Menu from "../menu/Menu";
 
 /* Styling */
-const Container = styled.div`
-    width: 100vw;
-    will-change: contents;
-    height: 90vh;
-    top: -1vh;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    font-family: 'Segoe UI';
-`;
+
 
 const Textarea = styled.div`
     position: absolute;
     left: 10%;
-    top: -1vh;
+    top: 0vh;
     margin-top: 5px;
-    width: 89vw;
+    width: 90vw;
     height: 100vh;
     overflow: auto;
     overflow-x: hidden;
@@ -143,9 +133,9 @@ export default class Education extends Component{
     render(){
         return(
             
-            <Container>
+            <div className='container'>
                 <Menu/>
-                <Textarea>
+                <div className='text_area2'>
                     <h1>Here you can see my education</h1>
 
 
@@ -563,8 +553,8 @@ export default class Education extends Component{
                         </SkillText>
                     </SkillContainer>
 
-                </Textarea>
-            </Container>            
+                </div>
+            </div>            
         )
     }
 };
