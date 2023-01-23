@@ -16,7 +16,7 @@ export default class Info extends Component{
             <div className='container'>
                 <Menu/>
                 <span className='top_tag'>&lt;body&gt;</span>
-                <div className='text_area'>
+                <div className='text_area4'>
                     <h1>
                         About me
                     </h1>

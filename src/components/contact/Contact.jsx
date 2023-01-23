@@ -1,76 +1,8 @@
 import React, { useRef } from 'react';
-import styled from "styled-components";
 import emailjs from '@emailjs/browser';
 import Menu from "../menu/Menu";
 
 import "./contact.css";
-
-/* Styling */
-
-
-const Textarea = styled.div`
-    position: absolute;
-    left: 15%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 60%;
-    max-height: 90%;
-
-    h1 {
-        color: #ffd700;
-        font-size: 53px;
-        margin: 0;
-        font-family: "Coolvetica";
-        font-weight: 400;
-
-        &::before {
-            content: "<h1>";
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -50px;
-            left: 15px;
-            opacity: 0.6;
-            animation: fadeIn 1s 1s backwards;
-            
-        }
-
-        &::after {
-            content: "</h1>";
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
-            opacity: 0.6;
-            animation: fadeIn 1s 1s backwards;
-            
-        }
-    }
-
-    h2 {
-        color: #8d8d8d;
-        margin-top: 30px;
-        font-weight: 400;
-        font-size: 11px;
-        letter-spacing: 3px;
-        animation: fadeIn 1s 1.1s backwards;
-    }
-
-    p {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 300;
-        min-width: fit-content;
-        animation: pulse 1s;
-    }
-`;
-
-
-
-
-
-
 
 /* functional Component*/
 
@@ -103,7 +35,7 @@ export default function Contact (){
         <div className='container'>
             <Menu/>
             <div className='top_tag'>&lt;body&gt;</div>
-            <Textarea>
+            <div className='text_area'>
                 <h1>Contact Me!</h1>
                 <p>
                     I am open to opportunities and projects in the blockchain space.
@@ -154,7 +86,7 @@ export default function Contact (){
                         </ul>
                     </form>
                 </div>
-            </Textarea>
+            </div>
             <div className='bottom_tag'>
                 &lt;/body&gt;
                 <br/>

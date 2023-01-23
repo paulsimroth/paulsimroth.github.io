@@ -1,5 +1,5 @@
 
-.text_area {
+.text_area4 {
     position: absolute;
     left: 15%;
     top: 51%;
@@ -10,7 +10,7 @@
     max-height: 90%;
 }
 
-.text_area h1 {
+.text_area4 h1 {
     color: #ffd700;
     font-size: 53px;
     margin-top: 0;
@@ -20,7 +20,7 @@
     margin-bottom: 40px;
 }
 
-.text_area h1::before {
+.text_area4 h1::before {
     content: "<h1>";
     color: #ffd700;
     font-size: 18px;
@@ -32,7 +32,7 @@
     line-height: 18px;
 }
 
-.text_area h1::after {
+.text_area4 h1::after {
     content: "</h1>";
     color: #ffd700;
     font-size: 18px;
@@ -45,7 +45,7 @@
     bottom: -20px;
 }
 
-.text_area h2 {
+.text_area4 h2 {
     color: #8d8d8d;
     margin-top: 30px;
     font-weight: 400;
@@ -54,7 +54,7 @@
     animation: fadeIn 1s 1.8s backwards;
 }
 
-.text_area p {
+.text_area4 p {
     text-align: justify;
     font-size: 16px;
     color: #fff;
@@ -64,15 +64,15 @@
     animation: pulse 1s;
 }
 
-.text_area p:nth-of-type(1) {
+.text_area4 p:nth-of-type(1) {
     animation-delay: 0.3s;
 }
 
-.text_area p:nth-of-type(2) {
+.text_area4 p:nth-of-type(2) {
     animation-delay: 0.4s;
 }
 
-.text_area p:nth-of-type(3) {
+.text_area4 p:nth-of-type(3) {
     animation-delay: 0.5s;
 }
 

@@ -14,6 +14,62 @@
   font-family: 'Segoe UI';
 }
 
+.text_area {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  max-height: 90%;
+}
+
+.text_area h1 {
+  color: #fff;
+  font-size: 53px;
+  margin: 0;
+  font-family: "Coolvetica";
+  font-weight: 400;
+}
+
+.text_area h1::before {
+  content: "<h1>";
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -50px;
+  left: 15px;
+  animation: fadeIn 1s 1s backwards;
+  opacity: 0.6;
+}
+
+.text_area h1::after {
+  content: "</h1>";
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 20px;
+  animation: fadeIn 1s 1s backwards;
+  opacity: 0.6;
+}
+
+.text_area h2 {
+  color: #8d8d8d;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+
+.text_area p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  min-width: fit-content;
+  animation: pulse 1s;
+}
+
 .text_area2 {
   position: absolute;
   left: 10%;

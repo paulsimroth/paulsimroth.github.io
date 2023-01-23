@@ -10,50 +10,7 @@ import Menu from "../menu/Menu";
 /* Styling */
 
 
-const Textarea = styled.div`
-    position: absolute;
-    left: 10%;
-    top: 0vh;
-    margin-top: 5px;
-    width: 90vw;
-    height: 100vh;
-    overflow: auto;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex: 1 1 100%;
-    
-    h1 {
-        width: 80vw;
-        height: 60px;
-        color: #ffd700;
-        font-size: 50px;
-        margin: 20px 10px 0px 10px;
-        padding: 10px;
-        font-family: "Coolvetica";
-        font-weight: 400;
-        animation: fadeIn 1s 0.5s backwards;
-        z-index: 5;
-        flex: 1 1 100%;
-    }
 
-    h2 {
-        
-        width: 85vw;
-        height: 25px;
-        color: #ffd700;
-        font-size: 30px;
-        margin: 0px 10px 0px 10px;
-        padding: 10px;
-        font-family: "Coolvetica";
-        font-weight: 400;
-        animation: fadeIn 1s 0.5s backwards;
-    }
-    
-`;
 
 const SkillContainer = styled.div`
     width: 750px;
