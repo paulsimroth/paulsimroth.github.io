@@ -16,7 +16,7 @@ export default class Projects extends Component{
                     <h1>Welcome to my projects page.</h1>
                     <div className='project_area'>
                     
-                    <h2>These are my finished study projects, listed newest to oldest.</h2>
+                    <h2>Finished study projects, listed newest to oldest.</h2>
 
                     <div className='project_box'>
                         <h3>ETH Domain Website</h3>
@@ -182,7 +182,7 @@ export default class Projects extends Component{
                 
                     <div className='project_area'>
                     
-                    <h2>These are my study projects currently under development or revision.</h2>
+                    <h2>Study projects currently in development or revision.</h2>
 
                     <div className='project_box'>
                         <h3>Web3 Online Shop</h3>
