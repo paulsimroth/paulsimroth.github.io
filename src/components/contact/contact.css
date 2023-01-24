@@ -46,7 +46,6 @@
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
-    text-transform: uppercase;
 }
 
 .contact_form textarea {
@@ -60,7 +59,6 @@
     min-height: 150px;
     padding: 10px 20px;
     box-sizing: border-box;
-    text-transform: uppercase;
 }
 
 .send_btn {

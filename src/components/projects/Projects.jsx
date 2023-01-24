@@ -195,6 +195,7 @@ export default class Projects extends Component{
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
                         <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/web3market">
