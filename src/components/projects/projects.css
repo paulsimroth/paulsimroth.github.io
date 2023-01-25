@@ -80,3 +80,12 @@
         height: auto;
     }
 }
+
+@media (max-width: 480px) {
+    .project_area h2 {
+        height: 25px;
+        font-size: 20px;
+        margin: 0 10px 5px 10px;
+        padding: 10px;
+    }
+}

@@ -221,6 +221,20 @@
   .html_tag {
     visibility: hidden;
   }
+
+  .text_area3 {
+    width: 89vw;
+  }
+
+  .text_area3 h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .text_area3 p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -230,21 +244,71 @@
 
   .text_area2 h1 {
     font-size: 40px;
+    margin: 20px 10px -15px 10px;
+    padding: 10px;
   }
 
   .text_area3 h1 {
     font-size: 40px;
+    
+  }
+  
+  .text_area3 h2 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  
+  .text_area3 p {
+    font-size: 10px;
+    letter-spacing: 2px;
   }
 
   .text_area4 h1 {
     font-size: 40px;
+    margin-bottom: 1px;
   }
 
   .text_area2 h2 {
     width: 91vw;
     height: 25px;
     font-size: 22px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 5px 20px;
     padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .text_area h1 {
+    font-size: 35px;
+  }
+
+  .text_area2 h1 {
+    font-size: 35px;
+  }
+
+  .text_area2 h2 {
+    width: 99vw;
+    height: 25px;
+    font-size: 20px;
+    margin: 10px 20px 12px 20px;
+    padding: 0;
+  }
+
+  .text_area3 h1 {
+    font-size: 35px;
+  }
+
+  .text_area3 h2 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  .text_area3 p {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .text_area4 h1 {
+    font-size: 35px;
   }
 }
