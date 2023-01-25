@@ -11,7 +11,7 @@ export default class Data extends Component{
             <div className='container'>
                 <Menu/>
                 <div className='text_area3'>
-                    <h1>PRIVACY STATEMENT</h1>
+                    <h1>PRIVACY STATEMENT.</h1>
                     <p>Last update: 28.11.2022</p>
                     <h2>Purpose of the privacy policy</h2>
                     <p>This Privacy Policy describes what data is collected and how it is used.</p>

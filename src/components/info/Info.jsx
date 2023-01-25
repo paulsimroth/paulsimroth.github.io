@@ -18,7 +18,7 @@ export default class Info extends Component{
                 <span className='top_tag info_tag'>&lt;body&gt;</span>
                 <div className='text_area4'>
                     <h1>
-                        About me
+                        About me.
                     </h1>
                     <p>
                         I am a self-taught blockchain developer, passionate about learning and this technology as a whole. 

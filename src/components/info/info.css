@@ -144,38 +144,29 @@
 
     .skill_icons {
         display: flex;
-        width: 15vw;
-        right: 3vw;
+        width: 20vw;
+        right: 1vw;
         height: 98vh;
-        
         flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-around;
-        flex-wrap: wrap;
         overflow: scroll;
         overflow-x: hidden;
-        opacity: 0.8;
+        opacity: 1;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     .skill_icons {
         visibility: hidden;
     }
 
     .text_area4 {
-        position: absolute;
-        left: 15%;
         top: 48%;
         transform: translateY(-50%);
         width: 82%;
-        vertical-align: middle;
-        max-height: 93%;
     }
 
     .text_area4 h1 {
-        font-size: 40px;
         margin-bottom: 1px;
     }
 }

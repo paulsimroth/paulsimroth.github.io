@@ -18,7 +18,7 @@ export default function Imprint (){
         <div className='container'>
             <Menu/>
             <div className='text_area3'>
-                <h1>IMPRINT</h1>
+                <h1>IMPRINT.</h1>
 
                 <h2>Publisher and media owner:</h2>
                 <p>{name}</p>

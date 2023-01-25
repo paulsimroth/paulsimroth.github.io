@@ -15,8 +15,7 @@ export default class Education extends Component{
             <div className='container'>
                 <Menu/>
                 <div className='text_area2'>
-                    <h1>Here you can see my education</h1>
-
+                    <h1>My Education.</h1>
 
                     <h2>Ethereum & Blockchain Basics</h2>
 

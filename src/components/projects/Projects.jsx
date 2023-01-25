@@ -13,10 +13,10 @@ export default class Projects extends Component{
         <div className='container'>
             <Menu/>
             <div className='text_area2'>
-                <h1>Welcome to my projects page.</h1>
+                <h1>My Projects.</h1>
                 <div className='project_area'>
                 
-                <h2>Finished study projects, listed newest to oldest.</h2>
+                <h2>Finished study projects, <small>newest to oldest.</small></h2>
 
                 <div className='project_box'>
                     <h3>ETH Domain Website</h3>

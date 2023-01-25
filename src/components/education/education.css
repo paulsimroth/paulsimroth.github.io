@@ -21,14 +21,6 @@
     transition: all 0.5s ease;
 }
 
-
-
-.skill_text li {
-    text-align: left;
-    color: #fff;
-    font-size: 10px; 
-}
-
 .skill_header {
     display: flex;
     flex-direction: row;
@@ -66,7 +58,44 @@
     font-weight: 300;
 }
 
+.skill_text li {
+    text-align: left;
+    color: #fff;
+    font-size: 10px; 
+}
+
 .skill_text p {
     text-align: justify;
     font-size: 12px;
+}
+
+@media (max-width: 830px) {
+    .skill_card {
+        width: 91vw;
+        height: auto;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .skill_header h3 {
+        font-size: 20px;
+    }
+    
+    .skill_header h4 {
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    .skill_text p {
+        text-align: justify;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .skill_card {
+        margin: 6px 10px 6px 10px;
+        padding: 6px;
+        font-size: 12px;
+    }
 }
