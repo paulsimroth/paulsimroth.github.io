@@ -57,7 +57,7 @@
 
 .text_area4 p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 300;
@@ -169,5 +169,11 @@
     .text_area4 h1 {
         font-size: 40px;
         margin-bottom: 1px;
-      }
+    }
+}
+
+@media (max-width: 480px) {
+    .text_area4 p {
+        font-size: 13px;
+    }
 }
