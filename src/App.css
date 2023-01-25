@@ -200,3 +200,29 @@
 .html_tag {
   margin-left: -20px;
 }
+
+@media (max-width: 860px) {
+  .text_area h1::before {
+    content: "";
+  }
+  
+  .text_area h1::after {
+    content: "";
+  }
+
+  .top_tag {
+    visibility: hidden;
+  }
+  
+  .bottom_tag {
+    visibility: hidden;
+  }
+  
+  .html_tag {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 400px) {
+
+}

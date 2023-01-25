@@ -15,7 +15,7 @@ export default class Info extends Component{
             
             <div className='container'>
                 <Menu/>
-                <span className='top_tag'>&lt;body&gt;</span>
+                <span className='top_tag info_tag'>&lt;body&gt;</span>
                 <div className='text_area4'>
                     <h1>
                         About me
@@ -34,9 +34,9 @@ export default class Info extends Component{
                         For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
                     </p>
                     <br/>
-                    <Link to="/education" ><button className='button1'>MY EDUCATION</button></Link>
+                    <Link to="/education" ><button className='button1 info_btn'>MY EDUCATION</button></Link>
                     
-                    <Link to="/projects" ><button className='button1'>MY PROJECTS</button></Link>
+                    <Link to="/projects" ><button className='button1 info_btn'>MY PROJECTS</button></Link>
                     
                 </div>
                 
@@ -61,11 +61,6 @@ export default class Info extends Component{
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
                         <p>Solidity (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | Openzeppelin | ChainLink | Oracles | DApp Development | Ethers.Js</p>
                     </div>
-
-                    <div>
-                        <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
-                        <p>FinTech | Dezentralized Finance | DeFi Analysis</p>
-                    </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
@@ -78,20 +73,25 @@ export default class Info extends Component{
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
-                        <p>Git | GitHub</p>   
-                    </div> 
+                        <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
+                        <p>FinTech | Dezentralized Finance | DeFi Analysis</p>
+                    </div>
+
                     <div>
                         <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
                         <p>Blockchain for Business | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
-                    </div>         
-                    
+                    </div> 
+
+                    <div>
+                        <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                        <p>Git | GitHub</p>   
+                    </div>
                 </div>
 
-                <span className='bottom_tag'>
+                <span className='bottom_tag info_tag'>
                     &lt;/body&gt;
                     <br/>
-                    <span className='html_tag'>&lt;/html&gt;</span>
+                    <span className='html_tag info_tag'>&lt;/html&gt;</span>
                 </span> 
             </div>
             
