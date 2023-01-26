@@ -21,23 +21,27 @@ export default class Info extends Component{
                         About me.
                     </h1>
                     <p>
-                        I am a self-taught blockchain developer, passionate about learning and this technology as a whole. 
-                        After starting my journey in this space in the summer of 2021 by beginning to take courses at Moralis Academy, I am now looking forward to 
-                        a role as a developer with the opportunity to work with the latest technologies on interesting projects.
+                        As a blockchain developer, I am passionate about decentralized systems aswell as the possibilities and future of blockchain technology. 
+                        My core skills include developing decentralized applications and smart contracts. 
+                        I am proficient in Javascript, ReactJS, HTML, CSS and Smart contract development using Solidity. 
+                        I am always eager to learn about new use cases and opportunities to apply blockchain technology. 
                     </p>
                     <p>
-                        During my time studying as well as during the projects completed during the courses 
-                        I had the opportunity to familiarize myself with Javascript and Solidity aswell as React.js, HTML and CSS.
-                        Check out my skills, seen here on the right or on the Education page. Check out the Porjects page to see my finished and ongoing projects.
+                        In addition to my technical expertise, my academic background in history gives me a unique perspective on blockchain technology. 
+                        I am an asset to any team with my interdisciplinary approach to problem-solving and critical thinking skills. 
+                        I also have several years of working experience in aviation and understand the importance of security, efficiency and scalability.
                     </p>
                     <p>
-                        For more information don´t hesitate to contact me via the contact form or visit my LinkedIn and GitHub.
+                        If you're looking for a blockchain developer or want to work on a new project, I would love to hear from you. 
+                        <br/>
+                        <strong>Reach out to me to discuss how we can work together to explore the possibilities and future of blockchain technology!</strong>
                     </p>
                     <br/>
-                    <Link to="/education" ><button className='button1 info_btn'>MY EDUCATION</button></Link>
                     
                     <Link to="/projects" ><button className='button1 info_btn'>MY PROJECTS</button></Link>
-                    
+
+                    <Link to="/education" ><button className='button1 info_btn'>MY EDUCATION</button></Link>
+
                 </div>
                 
                 <div className='skill_icons'>

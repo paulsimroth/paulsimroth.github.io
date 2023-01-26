@@ -113,6 +113,16 @@
 }
 
 @media (max-width: 1260px) {
+
+    .text_area4 {
+        top: 48%;
+        transform: translateY(-50%);
+    }
+
+    .text_area4 h1 {
+        margin-bottom: 10px;
+    }
+
     .info_tag {
         visibility: hidden;
     }
@@ -160,7 +170,7 @@
     }
 
     .text_area4 {
-        top: 48%;
+        top: 50%;
         transform: translateY(-50%);
         width: 82%;
     }
