@@ -17,7 +17,7 @@ export default class Home extends Component{
                     <br/>
                     <h2>Solidity / Javascript / React.js / CSS / HTML</h2>  
                     <br/>
-                    <Link to="/contact" ><button className='button1'>CONTACT ME</button></Link>
+                    <Link to="/contact" ><button className='button1'>CONTACT ME!</button></Link>
 
                 </div>
                 

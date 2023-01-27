@@ -40,6 +40,7 @@ export default function Contact (){
                 <p>
                     I am open to opportunities and projects in the blockchain space.
                     Also, if you have any other questions do not hesitate to contact me using the form below.
+                    Let me know how we can work together!
                 </p>
                 <p style={{color: "#ffd700"}}>By clicking the send button you confirm that you have seen and accepted the Privacy Policy!</p>
                 <div className='contact_form'>
