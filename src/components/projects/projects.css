@@ -9,7 +9,6 @@
     font-size: 25px;
     margin: 10px;
     padding: 10px;
-    font-family: "Coolvetica";
     font-weight: 400;
     animation: fadeIn 1s 0.5s backwards;
 }
@@ -39,7 +38,6 @@
     color: #fff;
     font-size: 25px;
     margin: 0;
-    font-family: "Coolvetica";
     font-weight: 400;
 }
 

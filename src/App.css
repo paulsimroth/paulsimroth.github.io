@@ -11,7 +11,7 @@
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
-  font-family: 'Segoe UI';
+  font-family: 'Roboto';
 }
 
 .text_area {
@@ -27,7 +27,6 @@
   color: #fff;
   font-size: 53px;
   margin: 0;
-  font-family: "Coolvetica";
   font-weight: 400;
 }
 
@@ -94,7 +93,6 @@
   font-size: 50px;
   margin: 20px 10px 0px 10px;
   padding: 10px;
-  font-family: "Coolvetica";
   font-weight: 400;
   animation: fadeIn 1s 0.5s backwards;
   z-index: 5;
@@ -108,7 +106,6 @@
   font-size: 30px;
   margin: 0px 10px 0px 10px;
   padding: 10px;
-  font-family: "Coolvetica";
   font-weight: 400;
   animation: fadeIn 1s 0.5s backwards;
 }
@@ -128,7 +125,6 @@
   color: #ffd700;
   font-size: 50px;
   margin: 0;
-  font-family: "Coolvetica";
   font-weight: 400;
 }
 
