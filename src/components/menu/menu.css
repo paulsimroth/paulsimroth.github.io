@@ -13,7 +13,6 @@
     height: 110vh;
     top: -10vh;
     z-index: 3;
-    
 }
 
 .nav {
@@ -132,13 +131,26 @@
 
 @media (max-width: 860px) {
     .logo {
-        visibility: hidden;
+        width: 30px;
     }
 }
 
 @media (max-width: 480px) {
+    .logo {
+        width: 20px;
+    }
+
     .nav_link {
         font-size: 17px;
+    }
+
+    .nav_media {
+        bottom: 50px;
+    }
+
+    .nav_legal {
+        height: 21px;
+        top: 85vh;
     }
 
     .nav_legal_link {
