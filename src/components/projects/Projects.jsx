@@ -19,6 +19,26 @@ export default class Projects extends Component{
                 <h2>Finished study projects, <small>newest to oldest.</small></h2>
 
                 <div className='project_box'>
+                    <h3>Web3 Online Shop</h3>
+                    <p>
+                    Here the goal was to build a Web3 version of a Marketplace, inspired by Amazon.
+                    I followed a tutorial by Dapp University which is linked in the README.
+                    It consists of a smart contract and a React Frontend where you can see items and buy them. 
+                    The contract owner can list items and also withdraw ETH form the smart contract.
+                    </p>
+                    <div className='skill_box'>
+                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/web3market">
+                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project_box'>
                     <h3>ETH Domain Website</h3>
                     <p>
                     Here the goal was to build a Web3 version of GoDaddy and something similar to ENS.
@@ -182,27 +202,7 @@ export default class Projects extends Component{
             
                 <div className='project_area'>
                 
-                <h2>Study projects currently in development or revision.</h2>
-
-                <div className='project_box'>
-                    <h3>Web3 Online Shop</h3>
-                    <p>
-                    Here the goal was to build a Web3 version of a Marketplace, inspired by Amazon.
-                    I followed a tutorial by Dapp University which is linked in the README.
-                    It consists of a smart contract and a React Frontend where you can see items and buy them. 
-                    The contract owner can list items and also withdraw ETH form the samrt contract.
-                    </p>
-                    <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
-                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
-                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
-                        <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/web3market">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <h2>Study projects in development or revision.</h2>
 
                 <div className='project_box'>
                     <h3>NFT Marketplace</h3>
