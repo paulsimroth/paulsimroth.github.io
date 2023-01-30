@@ -430,7 +430,7 @@ export default class Education extends Component{
                             </ul>
                         </div>
                     </div>
-
+                    <div className='divider'></div>
                 </div>
             </div>            
         )

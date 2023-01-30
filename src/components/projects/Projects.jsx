@@ -225,6 +225,7 @@ export default class Projects extends Component{
                 </div>
 
                 </div>
+                <div className='divider'></div>
             </div>
         </div>
     )
