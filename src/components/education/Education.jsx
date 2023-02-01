@@ -220,7 +220,7 @@ export default class Education extends Component{
                                 <li>NodeJS Basics</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Moralis SDK V1</li>
+                                <li>Moralis V1</li>
                             </ul>
                         </div>
                     </div>

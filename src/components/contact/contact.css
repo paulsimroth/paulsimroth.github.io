@@ -71,6 +71,7 @@
     border: 2px solid #ffd700;
     float: right;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .send_btn:hover {
