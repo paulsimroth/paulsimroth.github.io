@@ -1,6 +1,6 @@
 .skill_card {
     width: 750px;
-    height: 180px;
+    min-height: 180px;
     margin: 20px;
     padding: 6px;
     border: 2px solid #ffd700;
@@ -31,7 +31,6 @@
     color: #fff;
     font-size: 25px;
     margin: 0;
-    font-family: "Coolvetica";
     font-weight: 400;
 }
 
@@ -39,7 +38,6 @@
     color: #fff;
     font-size: 20px;
     margin: 5px;
-    font-family: "Coolvetica";
     font-weight: 400;
 }
 
@@ -61,7 +59,7 @@
 .skill_text li {
     text-align: left;
     color: #fff;
-    font-size: 10px; 
+    font-size: 11px; 
 }
 
 .skill_text p {
@@ -94,7 +92,7 @@
 
 @media (max-width: 575px) {
     .skill_card {
-        margin: 6px 10px 6px 10px;
+        margin: 10px 10px 10px 10px;
         padding: 6px;
         font-size: 12px;
     }

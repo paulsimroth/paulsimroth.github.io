@@ -105,7 +105,7 @@
 
 .text_area2 h2 {
   width: 85vw;
-  height: 25px;
+  height: auto;
   color: #ffd700;
   font-size: 30px;
   margin: 0px 10px 0px 10px;
@@ -270,7 +270,6 @@
 
   .text_area2 h2 {
     width: 91vw;
-    height: 25px;
     font-size: 22px;
     margin: 0px 20px 5px 20px;
     padding: 0;
@@ -288,7 +287,6 @@
 
   .text_area2 h2 {
     width: 99vw;
-    height: 25px;
     font-size: 20px;
     margin: 10px 20px 12px 20px;
     padding: 0;

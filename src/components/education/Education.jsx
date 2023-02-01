@@ -77,10 +77,10 @@ export default class Education extends Component{
                                 <li>Solidity Basics</li>
                                 <li>Arrays Structs</li>
                                 <li>Mappings</li>
-                                <li>Data Location</li>
                                 <li>Error Handling</li>
                             </ul>
                             <ul>
+                                <li>Data Location</li>
                                 <li>Inheritance</li>
                                 <li>Visibility</li>
                                 <li>Events</li>
