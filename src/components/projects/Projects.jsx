@@ -35,6 +35,11 @@ export default class Projects extends Component{
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
                             </a>
                         </div>
+                    {/* <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/">
+                                <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                            </a>
+                        </div> */}
                     </div>
                 </div>
 
@@ -50,10 +55,15 @@ export default class Projects extends Component{
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                         <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_domain_platform">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth_domains">
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
                             </a>
                         </div>
+{/*                         <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/eth_domains">
+                                <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
+                            </a>
+                        </div> */}
                     </div>
                 </div>
                 
