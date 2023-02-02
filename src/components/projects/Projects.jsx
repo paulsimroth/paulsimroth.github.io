@@ -49,6 +49,7 @@ export default class Projects extends Component{
                     Here the goal was to build a Web3 version of GoDaddy and something similar to ENS.
                     I followed a tutorial by Dapp University which is linked in the README.
                     It consists of a smart contract and a React Frontend where you can see domains, purchase them or see their owner.
+                    The Smart contract is deployed on Goerli Testnet
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -59,11 +60,11 @@ export default class Projects extends Component{
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
                             </a>
                         </div>
-{/*                         <div>
-                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/eth_domains">
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/eth_domains/">
                                 <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
                             </a>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 
