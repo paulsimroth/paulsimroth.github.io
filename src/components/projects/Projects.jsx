@@ -21,10 +21,10 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>Web3 Online Shop</h3>
                     <p>
-                    Here the goal was to build a Web3 version of a Marketplace, inspired by Amazon.
-                    I followed a tutorial by Dapp University which is linked in the README.
-                    It consists of a smart contract and a React Frontend where you can see items and buy them. 
-                    The contract owner can list items and also withdraw ETH form the smart contract.
+                    Here I built a Web3 version of an Online Shop, inspired by Amazon.
+                    I followed a tutorial by Dapp University which I linked in the README.
+                    It consists of a smart contract and a ReactJS Frontend where you can browse and buy items. 
+                    It is now deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -35,21 +35,21 @@ export default class Projects extends Component{
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
                             </a>
                         </div>
-                    {/* <div>
-                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/">
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://paulsimroth.github.io/web3market/">
                                 <FontAwesomeIcon icon={faLaptopCode} color= "#727274" />
                             </a>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
 
                 <div className='project_box'>
                     <h3>ETH Domain Website</h3>
                     <p>
-                    Here the goal was to build a Web3 version of GoDaddy and something similar to ENS.
+                    Here i built a Web3 version of GoDaddy and something similar to ENS.
                     I followed a tutorial by Dapp University which is linked in the README.
                     It consists of a smart contract and a React Frontend where you can see domains, purchase them or see their owner.
-                    The Smart contract is deployed on Goerli Testnet
+                    The Smart contract is deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
@@ -71,9 +71,9 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>Realestate Platform</h3>
                     <p>
-                    With this project I tried out Hardhat and wanted to familiarize myself with this development tool.
+                    With this project I wanted to tyr out HardHat and familiarize myself with this tool.
                     I followed a tutorial by Dapp University which is linked in the README. 
-                    It is a smart contract with basic functions needed for a transaction including different roles like buyer, seller, lender and inspector.
+                    It is a real estate escrow smart contract with basic functions needed for a transaction including roles like buyer, seller, lender and inspector.
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>

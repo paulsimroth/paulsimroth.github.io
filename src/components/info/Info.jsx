@@ -63,7 +63,7 @@ export default class Info extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | Openzeppelin | ChainLink | Oracles | DApp Development | Ethers.Js</p>
+                        <p>Solidity (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | ChainLink | Oracles | DApp Development | Ethers.Js</p>
                     </div>
                  
                     <div>
