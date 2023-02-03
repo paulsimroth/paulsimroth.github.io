@@ -1,8 +1,8 @@
 .skill_card {
     width: 750px;
-    min-height: 190px;
+    min-height: 210px;
     margin: 20px;
-    padding: 6px;
+    padding: 5px;
     border: 2px solid #ffd700;
     border-radius: 10px;
     font-size: 12px;
