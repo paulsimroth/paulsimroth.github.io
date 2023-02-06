@@ -131,7 +131,7 @@ export default class Projects extends Component{
                 </div>
 
                 <div className='project_box'>
-                    <h3>React.Js Coin Exchange</h3>
+                    <h3>ReactJS Coin Exchange</h3>
                     <p>
                         I did this react App as part of the course react Web Development 101 at Moralis Academy. 
                         It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 

@@ -68,7 +68,7 @@ export default class Info extends Component{
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                        <p>React.js | Axios</p>
+                        <p>ReactJS | Axios</p>
                     </div>
 
                     <div>
