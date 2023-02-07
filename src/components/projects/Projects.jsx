@@ -19,6 +19,25 @@ export default class Projects extends Component{
                 <h2>Finished study projects, <small>newest to oldest.</small></h2>
 
                 <div className='project_box'>
+                    <h3>Metaverse Landingpage</h3>
+                    <p>
+                    This project is my first introduction to Next.js, Tailwind.css and Framer Motion.
+                    It is a landing page for a metaverse and can be used to further expand upon.
+                    Currently the page does not have any funtionality built in. Currently this page is not deployed.
+                    </p>
+                    <div className='skill_box'>
+                        <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
+                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>
+                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/metaverse_page">
+                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project_box'>
                     <h3>Web3 Online Shop</h3>
                     <p>
                     Here I built a Web3 version of an Online Shop, inspired by Amazon.
@@ -131,7 +150,7 @@ export default class Projects extends Component{
                 </div>
 
                 <div className='project_box'>
-                    <h3>ReactJS Coin Exchange</h3>
+                    <h3>React.js Coin Exchange</h3>
                     <p>
                         I did this react App as part of the course react Web Development 101 at Moralis Academy. 
                         It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 

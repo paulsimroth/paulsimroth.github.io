@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route index element = {<Home/>}/>
         <Route path="/about" element = {<Info/>} />
-        <Route path="/education" element = {<Education/>} />
         <Route path="/projects" element = {<Projects/>} />
+        <Route path="/education" element = {<Education/>} />
         <Route path="/contact" element = {<Contact/>} />
         <Route path="/data" element = {<Data/>} />
         <Route path="/imprint" element = {<Imprint/>} />

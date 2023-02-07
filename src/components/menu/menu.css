@@ -73,11 +73,11 @@
 }
 
 .nav_link:nth-child(3)::after {
-    content: 'Education';
+    content: 'Projects';
 }
 
 .nav_link:nth-child(4)::after {
-    content: 'Projects';
+    content: 'Education';
 }
 
 .nav_link:nth-child(5)::after {

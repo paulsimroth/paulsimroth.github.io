@@ -28,12 +28,12 @@ export default class Menu extends Component{
                         <FontAwesomeIcon icon={faUser} color= "#595959"/>
                     </NavLink>
 
-                    <NavLink exact="true" activeclassname="active" className='nav_link' to="/education">
-                        <FontAwesomeIcon icon={faBook} color= "#595959"/>
-                    </NavLink>
-
                     <NavLink exact="true" activeclassname="active" className='nav_link' to="/projects">
                         <FontAwesomeIcon icon={faLaptopCode} color= "#595959"/>
+                    </NavLink>
+
+                    <NavLink exact="true" activeclassname="active" className='nav_link' to="/education">
+                        <FontAwesomeIcon icon={faBook} color= "#595959"/>
                     </NavLink>
 
                     <NavLink exact="true" activeclassname="active" className='nav_link' to="/contact">

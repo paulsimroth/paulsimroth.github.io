@@ -48,32 +48,32 @@ export default class Info extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p>JavaScript | API Communication</p>
+                        <p><strong>JavaScript</strong> | API Communication</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
-                        <p>HTML</p>
+                        <p><strong>HTML</strong></p>
                     </div>    
            
                     <div>
                         <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
-                        <p>CSS | Bootstrap</p>
+                        <p><strong>CSS</strong> | Bootstrap | Tailwind.css<br/> <strong>Animations:</strong> Animate.css | Framer Motion</p>
                     </div>
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p>Solidity (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | ChainLink | Oracles | DApp Development | Ethers.Js</p>
+                        <p><strong>Solidity</strong><br/> (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | ChainLink | Oracles | DApp Development | Ethers.Js</p>
                     </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                        <p>ReactJS | Axios</p>
+                        <p><strong>React.js</strong> | <strong>Next.js</strong> | Axios</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
-                        <p>Game Development: Phaser</p>   
+                        <p><strong>Game Development:</strong> Phaser</p>   
                     </div>
 
                     <div>
