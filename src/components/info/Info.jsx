@@ -72,7 +72,7 @@ export default class Info extends Component{
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faNodeJs} color= "#026E00"/>
+                        <FontAwesomeIcon icon={faNodeJs} color= "#85bb65"/>
                         <p><strong>API Communication</strong> | Axios | Moralis | Wagmi</p>
                     </div>
 
