@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
@@ -48,7 +48,7 @@ export default class Info extends Component{
                     
                     <div>
                         <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
-                        <p><strong>JavaScript</strong> | API Communication</p>
+                        <p><strong>JavaScript</strong></p>
                     </div>
 
                     <div>
@@ -63,12 +63,17 @@ export default class Info extends Component{
                    
                     <div>
                         <FontAwesomeIcon icon={faEthereum} color="#fff"/>
-                        <p><strong>Solidity</strong><br/> (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | ChainLink | Oracles | DApp Development | Ethers.Js</p>
+                        <p><strong>Solidity</strong><br/> (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | Oracles | DApp Development | Ethers.Js</p>
                     </div>
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
-                        <p><strong>React.js</strong> | <strong>Next.js</strong> | Axios</p>
+                        <p><strong>React.js</strong> | <strong>Next.js</strong></p>
+                    </div>
+
+                    <div>
+                        <FontAwesomeIcon icon={faNodeJs} color= "#026E00"/>
+                        <p><strong>API Communication</strong> | Axios | Moralis | Wagmi</p>
                     </div>
 
                     <div>
@@ -78,12 +83,12 @@ export default class Info extends Component{
 
                     <div>
                         <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
-                        <p>FinTech | Dezentralized Finance | DeFi Analysis</p>
+                        <p><strong>Dezentralized Finance</strong> | FinTech | DeFi Analysis</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
-                        <p>Blockchain for Business | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
+                        <p><strong>Blockchain for Business</strong> | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
                     </div> 
 
                     <div>
