@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCss3, faEthereum, faHtml5, faJsSquare, faReact} from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import solLogo from "../img/solidity_icon_light.svg";
+
 import Menu from "../menu/Menu";
 import "./projects.css";
 
@@ -46,7 +48,7 @@ export default class Projects extends Component{
                     It is now deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                         <div>
@@ -71,7 +73,7 @@ export default class Projects extends Component{
                     The Smart contract is deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4"/></div>
                         <div>
@@ -95,7 +97,7 @@ export default class Projects extends Component{
                     It is a real estate escrow smart contract with basic functions needed for a transaction including roles like buyer, seller, lender and inspector.
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/realestate_escrow">
@@ -114,7 +116,7 @@ export default class Projects extends Component{
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/></div>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                         <div>
@@ -203,7 +205,7 @@ export default class Projects extends Component{
                         The project is using Truffle and Openzeppelin and consists of a Token, a Wallet and the DEX smart contract.
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/eth201project">
@@ -220,7 +222,7 @@ export default class Projects extends Component{
                         It is a multi signature wallet where you need the approval of the majority of adresses which have been assigned the role of Admin to complete a transaction.
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div>
                             <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/Ethereum101-course-project">
                                 <FontAwesomeIcon icon={faGithub} color= "#727274" />
@@ -242,7 +244,7 @@ export default class Projects extends Component{
                     where the parents´ DNA determines the features of the new bear.                     
                     </p>
                     <div className='skill_box'>
-                        <div><FontAwesomeIcon icon={faEthereum} color="#fff"/></div>
+                        <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color= "#F06529"/></div>
                         <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9"/></div>

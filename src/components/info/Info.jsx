@@ -4,6 +4,8 @@ import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-s
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import "./info.css";
+import tsLogo from "../img/typescript_icon.svg";
+import solLogo from "../img/solidity_icon_light.svg";
 
 import Menu from "../menu/Menu";
 
@@ -47,52 +49,57 @@ export default class Info extends Component{
                 <div className='skill_icons'>
                     
                     <div>
-                        <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/>
+                        <FontAwesomeIcon icon={faJsSquare} color= "#EFD81D" className="skill_logo" />
                         <p><strong>JavaScript</strong></p>
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faHtml5} color= "#F06529"/>
+                        <img src={tsLogo} alt="logo typescript" className="skill_logo" />
+                        <p><strong>TypeScript</strong></p>
+                    </div>
+
+                    <div>
+                        <FontAwesomeIcon icon={faHtml5} color= "#F06529" className="skill_logo" />
                         <p><strong>HTML</strong></p>
                     </div>    
            
                     <div>
-                        <FontAwesomeIcon icon={faCss3} color= "#28A4D9"/>
+                        <FontAwesomeIcon icon={faCss3} color= "#28A4D9" className="skill_logo" />
                         <p><strong>CSS</strong> | Bootstrap | Tailwind.css<br/> <strong>Animations:</strong> Animate.css | Framer Motion</p>
                     </div>
                    
                     <div>
-                        <FontAwesomeIcon icon={faEthereum} color="#fff"/>
+                        <img src={solLogo} alt="logo solidity" className="skill_logo" />
                         <p><strong>Solidity</strong><br/> (EVM, ERC20, ERC721, ERC1155) | Truffle | Ganache | Hardhat | Oracles | DApp Development | Ethers.Js</p>
                     </div>
                  
                     <div>
-                        <FontAwesomeIcon icon={faReact} color= "#5ED4F4"/>
+                        <FontAwesomeIcon icon={faReact} color= "#5ED4F4" className="skill_logo" />
                         <p><strong>React.js</strong> | <strong>Next.js</strong></p>
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faNodeJs} color= "#85bb65"/>
+                        <FontAwesomeIcon icon={faNodeJs} color= "#85bb65" className="skill_logo" />
                         <p><strong>API Communication</strong> | Axios | Moralis | Wagmi</p>
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faGamepad} color= "#ffffcc"/>
+                        <FontAwesomeIcon icon={faGamepad} color= "#ffffcc" className="skill_logo" />
                         <p><strong>Game Development:</strong> Phaser</p>   
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65"/>
+                        <FontAwesomeIcon icon={faMoneyBillTransfer} color= "#85bb65" className="skill_logo" />
                         <p><strong>Dezentralized Finance</strong> | FinTech | DeFi Analysis</p>
                     </div>
 
                     <div>
-                        <FontAwesomeIcon icon={faBriefcase} color="#994d00"/>
+                        <FontAwesomeIcon icon={faBriefcase} color="#994d00" className="skill_logo" />
                         <p><strong>Blockchain for Business</strong> | Use Cases | Hyperledger | Baseline Protocol | Development Processes | SCRUM</p>
                     </div> 
 
                     <div>
-                        <FontAwesomeIcon icon={faGitAlt} color= "#F06529"/>
+                        <FontAwesomeIcon icon={faGitAlt} color= "#F06529" className="skill_logo" />
                         <p>Git | GitHub</p>   
                     </div>
                 </div>

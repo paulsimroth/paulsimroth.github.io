@@ -39,9 +39,16 @@
     font-size: 20px;
     margin: 5px;
     font-weight: 400;
+   
 }
 
-.skill_header svg {
+.ed_logos {
+    display: inline-flex;
+}
+
+.ed_logo {
+    height: 21px;
+    width: auto;
     margin: 1px 5px 0px 0px;
 }
 

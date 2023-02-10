@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome , faUser , faEnvelope, faLaptopCode, faBook} from "@fortawesome/free-solid-svg-icons";
 import {Link, NavLink} from "react-router-dom";
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import logo from "./logo_dark.png";
+import logo from "../img/logo_dark.png";
 import './menu.css';
 
 //Navbar
