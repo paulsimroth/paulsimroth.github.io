@@ -15,7 +15,7 @@ export default class Home extends Component{
                 <div className='text_area'>
                     <h1>Hi, <br/> I´m Paul. <br/> blockchain developer.</h1>
                     <br/>
-                    <h2>Solidity / Javascript / React.js / CSS / HTML</h2>  
+                    <h2>Solidity / JavaScript / TypeScript / React.js / CSS / HTML</h2>  
                     <br/>
                     <Link to="/contact" ><button className='button1'>CONTACT ME!</button></Link>
 

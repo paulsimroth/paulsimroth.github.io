@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCss3, faEthereum, faHtml5, faJsSquare, faReact} from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import solLogo from "../img/solidity_icon_light.svg";
+import tsLogo from "../img/typescript_icon.svg";
 
 import Menu from "../menu/Menu";
 import "./projects.css";
@@ -237,11 +238,30 @@ export default class Projects extends Component{
                 <h2>Study projects in development or revision.</h2>
 
                 <div className='project_box'>
+                    <h3>AI Chat App</h3>
+                    <p>
+                        This project is a Next.js App with TypeScript using Tailwind.css and functions as an AI Chat, 
+                        using ChatGPT API for handling chat prompts and Firebase for handling user logins. 
+                        The user can choose between different ChatGPT versions.
+                    </p>
+                    <div className='skill_box'>
+                        <div><img src={tsLogo} alt="logo typescript" className="skill_logo" /></div>
+                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9" /></div>
+                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4" /></div>
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/ai_chat">
+                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project_box'>
                     <h3>NFT Marketplace</h3>
                     <p>
-                    This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
-                    My version features bears instead of cats. The owner can mint 10 Generation 0 bears. after that you can breed bears, 
-                    where the parents´ DNA determines the features of the new bear.                     
+                        This is my version of the NFT Marketplace, cloned from Academy Kitties @ Moralis Academy, done as part of the course "Build an NFT Market Place".
+                        My version features bears instead of cats. The owner can mint 10 Generation 0 bears. after that you can breed bears, 
+                        where the parents´ DNA determines the features of the new bear.                     
                     </p>
                     <div className='skill_box'>
                         <div><img src={solLogo} alt="logo solidity" className="skill_logo" /></div>

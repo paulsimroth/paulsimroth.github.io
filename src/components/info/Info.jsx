@@ -75,12 +75,12 @@ export default class Info extends Component{
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4" className="skill_logo" />
-                        <p><strong>React.js</strong> | <strong>Next.js</strong></p>
+                        <p><strong>React.js</strong> | Wagmi | <strong>Next.js</strong></p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faNodeJs} color= "#85bb65" className="skill_logo" />
-                        <p><strong>API Communication</strong> | Axios | Moralis | Wagmi</p>
+                        <p><strong>API Communication</strong> | Axios | Moralis </p>
                     </div>
 
                     <div>
