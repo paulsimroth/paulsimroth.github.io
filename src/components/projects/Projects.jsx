@@ -22,6 +22,25 @@ export default class Projects extends Component{
                 <h2>Finished study projects, <small>newest to oldest.</small></h2>
 
                 <div className='project_box'>
+                    <h3>AI Chat App</h3>
+                    <p>
+                        This project is a Next.js App with TypeScript using Tailwind.css and functions as an AI Chat, modelled after ChatGPT, 
+                        using the OpenAI API for handling chat prompts and Firebase for handling user logins and storing chats. 
+                        The user can choose between different ChatGPT versions.
+                    </p>
+                    <div className='skill_box'>
+                        <div><img src={tsLogo} alt="logo typescript" className="skill_logo" /></div>
+                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9" /></div>
+                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4" /></div>
+                        <div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/ai_chat">
+                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project_box'>
                     <h3>Metaverse Landingpage</h3>
                     <p>
                     This project is my first introduction to Next.js, Tailwind.css and Framer Motion.
@@ -236,25 +255,6 @@ export default class Projects extends Component{
                 <div className='project_area'>
                 
                 <h2>Study projects in development or revision.</h2>
-
-                <div className='project_box'>
-                    <h3>AI Chat App</h3>
-                    <p>
-                        This project is a Next.js App with TypeScript using Tailwind.css and functions as an AI Chat, 
-                        using ChatGPT API for handling chat prompts and Firebase for handling user logins. 
-                        The user can choose between different ChatGPT versions.
-                    </p>
-                    <div className='skill_box'>
-                        <div><img src={tsLogo} alt="logo typescript" className="skill_logo" /></div>
-                        <div><FontAwesomeIcon icon={faCss3} color= "#28A4D9" /></div>
-                        <div><FontAwesomeIcon icon={faReact} color= "#5ED4F4" /></div>
-                        <div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/paulsimroth/ai_chat">
-                                <FontAwesomeIcon icon={faGithub} color= "#727274" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
                 <div className='project_box'>
                     <h3>NFT Marketplace</h3>
