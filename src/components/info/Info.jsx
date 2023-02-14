@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faEthereum, faHtml5, faJsSquare, faReact, faGitAlt, faNodeJs, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad, faMoneyBillTransfer, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
@@ -75,12 +75,17 @@ export default class Info extends Component{
                  
                     <div>
                         <FontAwesomeIcon icon={faReact} color= "#5ED4F4" className="skill_logo" />
-                        <p><strong>React.js</strong> | Wagmi | <strong>Next.js</strong></p>
+                        <p><strong>React.js</strong> | Wagmi | <strong>Next.js</strong> | SWR</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faNodeJs} color= "#85bb65" className="skill_logo" />
                         <p><strong>API Communication</strong> | Axios | Moralis </p>
+                    </div>
+
+                    <div>
+                        <FontAwesomeIcon icon={faGoogle} color= "#EA4335" className="skill_logo" />
+                        <p><strong>Firebase</strong> | Google Cloud</p>
                     </div>
 
                     <div>
