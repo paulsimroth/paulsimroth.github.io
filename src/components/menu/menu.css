@@ -129,6 +129,16 @@
     margin: 5px 0 5px 0;
 }
 
+.nav_legal_p {
+    font-size: 10px;
+    color: #595959;
+    display: block;
+    height: 21px;
+    position: relative;
+    text-decoration: none;
+    margin: 5px 0 5px 0;
+}
+
 .nav_legal_link:hover {
     color: #ffd700;
 }

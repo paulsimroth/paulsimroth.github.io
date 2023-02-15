@@ -63,6 +63,8 @@ export default class Menu extends Component{
                     <NavLink exact="true" activeclassname="active" className='nav_legal_link' to="/data">
                         Privacy Policy
                     </NavLink>
+
+                    <p className='nav_legal_p'>&#169; 2022-2023 Paul Simroth</p>
                 </nav>
             </div>
         )

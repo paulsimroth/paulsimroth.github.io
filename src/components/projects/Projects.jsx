@@ -24,7 +24,7 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>AI Chat App</h3>
                     <p>
-                        This project is a Next.js App with TypeScript using Tailwind.css and functions as an AI Chat, modelled after ChatGPT, 
+                        This project is a Next.Js App with TypeScript using Tailwind.css and functions as an AI Chat, modelled after ChatGPT, 
                         using the OpenAI API for handling chat prompts and Firebase for handling user logins and storing chats. 
                         The user can choose between different ChatGPT versions.
                     </p>
@@ -43,7 +43,7 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>Metaverse Landingpage</h3>
                     <p>
-                    This project is my first introduction to Next.js, Tailwind.css and Framer Motion.
+                    This project is my first introduction to Next.Js, Tailwind.css and Framer Motion.
                     It is a landing page for a metaverse and can be used to further expand upon.
                     Currently the page does not have any funtionality built in. Currently this page is not deployed.
                     </p>
@@ -64,7 +64,7 @@ export default class Projects extends Component{
                     <p>
                     Here I built a Web3 version of an Online Shop, inspired by Amazon.
                     I followed a tutorial by Dapp University which I linked in the README.
-                    It consists of a smart contract and a ReactJS Frontend where you can browse and buy items. 
+                    It consists of a smart contract and a React.Js Frontend where you can browse and buy items. 
                     It is now deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
@@ -89,7 +89,7 @@ export default class Projects extends Component{
                     <p>
                     Here i built a Web3 version of GoDaddy and something similar to ENS.
                     I followed a tutorial by Dapp University which is linked in the README.
-                    It consists of a smart contract and a React Frontend where you can see domains, purchase them or see their owner.
+                    It consists of a smart contract and a React.Js Frontend where you can see domains, purchase them or see their owner.
                     The Smart contract is deployed on Goerli Testnet.
                     </p>
                     <div className='skill_box'>
@@ -112,7 +112,7 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>Realestate Platform</h3>
                     <p>
-                    With this project I wanted to tyr out HardHat and familiarize myself with this tool.
+                    With this project I wanted to try out HardHat and familiarize myself with this tool.
                     I followed a tutorial by Dapp University which is linked in the README. 
                     It is a real estate escrow smart contract with basic functions needed for a transaction including roles like buyer, seller, lender and inspector.
                     </p>
@@ -172,10 +172,10 @@ export default class Projects extends Component{
                 </div>
 
                 <div className='project_box'>
-                    <h3>React.js Coin Exchange</h3>
+                    <h3>React.Js Coin Exchange</h3>
                     <p>
-                        I did this react App as part of the course react Web Development 101 at Moralis Academy. 
-                        It is a frontend for a coin exchange where top coins are listed and some a balance is shown. 
+                        I made this React.Js App as part of the course react Web Development 101 at Moralis Academy. 
+                        It is a frontend for a coin exchange where top coins are listed and your (fictional) balance is shown. 
                         We used the coinpaprika API to fetch data about top ranked coins.
                     </p>
                     <div className='skill_box'>
@@ -196,9 +196,10 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>JS DEX Frontend</h3>
                     <p>
-                        This DEX Frontend was built as part of the course "Javascript for Blockchain Developers" at Moralis Academy. 
+                        This DEX Frontend was built as part of the course "Javascript for Blockchain Developers" @ Moralis Academy. 
                         It was built using the Coinpaprika API for fetching data on the top ranked coins.
-                        Furthermore we made use of Moralis Server V1 aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps.
+                        Furthermore we made use of Moralis Server V1 aswell as a Plug in for a Fiat onramp and the Plug in for the 1inch API to perform swaps, 
+                        which was later removed due to Moralis Server V1 not being avalable anymore.
                     </p>
                     <div className='skill_box'>
                         <div><FontAwesomeIcon icon={faJsSquare} color= "#EFD81D"/></div>
@@ -238,7 +239,7 @@ export default class Projects extends Component{
                 <div className='project_box'>
                     <h3>Multi Signature Ethereum Wallet</h3>
                     <p>
-                        This Project was for the Ethereum Smart Contract Programming 101 Course at Moralis Academy. 
+                        This Project was done for the Ethereum Smart Contract Programming 101 Course at Moralis Academy. 
                         It is a multi signature wallet where you need the approval of the majority of adresses which have been assigned the role of Admin to complete a transaction.
                     </p>
                     <div className='skill_box'>
