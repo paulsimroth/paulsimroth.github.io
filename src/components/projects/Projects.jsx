@@ -254,7 +254,7 @@ export default class Projects extends Component{
             
                 <div className='project_area'>
                 
-                <h2>Study projects in development or revision.</h2>
+                {/* <h2>Study projects in development or revision.</h2>
 
                 <div className='project_box'>
                     <h3>NFT Marketplace</h3>
@@ -274,7 +274,7 @@ export default class Projects extends Component{
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 </div>
                 <div className='divider'></div>
