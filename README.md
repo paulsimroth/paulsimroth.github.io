@@ -1,7 +1,6 @@
 # Welcome to my repository for my portfolio page.
-On this page you can find my projects, some info about me and my contact information.
-
-Feel free to reach out to me and visit my page! https://paulsimroth.github.io/
+Welcome to the repository of my old portfolio page. 
+This used to be my old portfolio. Since my skills have outgrown this one I made a new portfolio page which you can find linked in my profile.
 
 ## Technology Stack & Tools
 
